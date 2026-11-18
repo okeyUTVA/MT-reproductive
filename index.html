@@ -1,0 +1,2780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strand 15: Reproductive System Review | Utah CTE Med Term #704</title>
+    <style>
+        /* =========================================================================
+           DESIGN TOKENS & SELF-CONTAINED CLINICAL STYLING (ZERO EXTERNAL CSS LIBS)
+           Reproductive System Rose / Plum / Magenta & Deep Navy Clinical Theme
+        ========================================================================= */
+        :root {
+            --bg-page: #f8fafc;
+            --bg-surface: #ffffff;
+            --bg-subtle: #f1f5f9;
+            --navy-950: #090d16;
+            --navy-900: #0f172a;
+            --navy-800: #1e293b;
+            --rose-950: #4c0519;
+            --rose-900: #831843;
+            --rose-800: #9d174d;
+            --rose-700: #be185d;
+            --rose-600: #db2777;
+            --rose-500: #ec4899;
+            --rose-400: #f472b6;
+            --rose-300: #f9a8d4;
+            --rose-200: #fbcfe8;
+            --rose-100: #fce7f3;
+            --rose-50: #fdf2f8;
+            --plum-800: #6b21a8;
+            --plum-700: #7e22ce;
+            --plum-600: #9333ea;
+            --plum-200: #e9d5ff;
+            --plum-100: #f3e8ff;
+            --plum-50: #faf5ff;
+            --indigo-700: #4338ca;
+            --indigo-200: #c7d2fe;
+            --indigo-50: #eef2ff;
+            --cyan-700: #0e7490;
+            --cyan-200: #a5f3fc;
+            --cyan-50: #ecfeff;
+            --amber-800: #92400e;
+            --amber-200: #fde68a;
+            --amber-100: #fef3c7;
+            --amber-50: #fffbeb;
+            --emerald-700: #047857;
+            --emerald-600: #059669;
+            --emerald-200: #a7f3d0;
+            --emerald-100: #d1fae5;
+            --emerald-50: #ecfdf5;
+            --crimson-700: #b91c1c;
+            --crimson-600: #dc2626;
+            --crimson-200: #fecaca;
+            --crimson-100: #fee2e2;
+            --crimson-50: #fef2f2;
+            --slate-900: #0f172a;
+            --slate-700: #334155;
+            --slate-600: #475569;
+            --slate-500: #64748b;
+            --slate-400: #94a3b8;
+            --slate-300: #cbd5e1;
+            --slate-200: #e2e8f0;
+            --slate-100: #f1f5f9;
+            --radius-sm: 0.5rem;
+            --radius-md: 0.75rem;
+            --radius-lg: 1rem;
+            --radius-xl: 1.5rem;
+            --shadow-sm: 0 1px 2px 0 rgba(15, 23, 42, 0.05);
+            --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.08), 0 2px 4px -2px rgba(15, 23, 42, 0.05);
+            --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.1), 0 4px 6px -4px rgba(15, 23, 42, 0.06);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-page);
+            color: #1e293b;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+
+        .font-mono {
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        /* Header & Navigation */
+        header {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #ffffff;
+            position: sticky;
+            top: 0;
+            z-index: 40;
+            box-shadow: var(--shadow-md);
+            border-bottom: 2px solid rgba(219, 39, 119, 0.65);
+        }
+
+        .container {
+            max-width: 1150px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+
+        @media (min-width: 640px) {
+            .container { padding: 0 1.5rem; }
+        }
+
+        .header-inner {
+            padding-top: 0.95rem;
+            padding-bottom: 0.85rem;
+        }
+
+        .header-top {
+            display: flex;
+            flex-direction: column;
+            gap: 0.875rem;
+        }
+
+        @media (min-width: 768px) {
+            .header-top {
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+
+        .brand-group {
+            display: flex;
+            align-items: center;
+            gap: 0.875rem;
+        }
+
+        .brand-icon {
+            width: 2.95rem;
+            height: 2.95rem;
+            border-radius: var(--radius-md);
+            background: rgba(190, 24, 93, 0.28);
+            border: 1px solid rgba(244, 114, 182, 0.55);
+            color: var(--rose-400);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .badge-row {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .cte-badge {
+            font-size: 0.7rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            padding: 0.18rem 0.65rem;
+            border-radius: 9999px;
+            background: linear-gradient(90deg, var(--rose-800), var(--rose-600));
+            color: #ffffff;
+        }
+
+        h1.site-title {
+            font-size: 1.15rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            color: #ffffff;
+            margin-top: 0.15rem;
+        }
+
+        @media (min-width: 640px) {
+            h1.site-title { font-size: 1.32rem; }
+        }
+
+        .site-subtitle {
+            font-size: 0.78rem;
+            color: #cbd5e1;
+            margin-top: 0.15rem;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.65rem;
+            flex-wrap: wrap;
+        }
+
+        .mastery-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            background: rgba(15, 23, 42, 0.92);
+            border: 1px solid rgba(244, 114, 182, 0.38);
+            border-radius: var(--radius-md);
+            padding: 0.45rem 0.9rem;
+        }
+
+        .mastery-label {
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            color: var(--slate-400);
+            font-weight: 700;
+        }
+
+        .mastery-value {
+            font-size: 0.875rem;
+            font-weight: 800;
+            color: var(--rose-400);
+        }
+
+        .mastery-progress-mini {
+            width: 7.5rem;
+            height: 0.38rem;
+            background: rgba(255, 255, 255, 0.14);
+            border-radius: 9999px;
+            overflow: hidden;
+            margin-top: 0.25rem;
+        }
+
+        .mastery-progress-mini-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--rose-500), var(--plum-600), var(--emerald-600));
+            width: 0%;
+            transition: width 0.25s ease;
+        }
+
+        .mastery-medal {
+            width: 2.1rem;
+            height: 2.1rem;
+            border-radius: 9999px;
+            background: rgba(190, 24, 93, 0.28);
+            color: var(--rose-400);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .header-reset-btn {
+            background: rgba(255, 255, 255, 0.07);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            color: var(--slate-300);
+            border-radius: var(--radius-md);
+            padding: 0.5rem 0.8rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s;
+            font-family: inherit;
+        }
+        .header-reset-btn:hover {
+            background: rgba(190, 24, 93, 0.35);
+            border-color: rgba(244, 114, 182, 0.6);
+            color: #ffffff;
+        }
+
+        /* Nav Tabs */
+        nav.tabs-nav {
+            display: flex;
+            overflow-x: auto;
+            gap: 0.4rem;
+            margin-top: 0.85rem;
+            padding-top: 0.7rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            scrollbar-width: none;
+        }
+        nav.tabs-nav::-webkit-scrollbar { display: none; }
+
+        .nav-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.52rem 0.92rem;
+            border-radius: var(--radius-md);
+            font-size: 0.84rem;
+            font-weight: 600;
+            white-space: nowrap;
+            border: none;
+            cursor: pointer;
+            background: transparent;
+            color: var(--slate-300);
+            transition: all 0.18s ease;
+            font-family: inherit;
+        }
+
+        .nav-btn:hover {
+            background: rgba(255, 255, 255, 0.08);
+            color: #ffffff;
+        }
+
+        .nav-btn.active {
+            background-color: var(--rose-700);
+            color: #ffffff;
+            box-shadow: var(--shadow-sm);
+        }
+
+        /* Main Layout */
+        main {
+            flex: 1;
+            padding-top: 1.4rem;
+            padding-bottom: 2.25rem;
+        }
+
+        .card-panel {
+            background: var(--bg-surface);
+            border: 1px solid var(--slate-200);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-sm);
+            padding: 1.25rem;
+        }
+
+        @media (min-width: 640px) {
+            .card-panel { padding: 1.5rem; }
+        }
+
+        .panel-header {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        @media (min-width: 1024px) {
+            .panel-header {
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+
+        h2.section-title {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--navy-900);
+        }
+
+        p.section-sub {
+            font-size: 0.875rem;
+            color: var(--slate-500);
+            margin-top: 0.15rem;
+        }
+
+        /* Buttons & Inputs */
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.45rem;
+            padding: 0.58rem 0.95rem;
+            border-radius: var(--radius-md);
+            font-size: 0.84rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s ease;
+            border: 1px solid transparent;
+            font-family: inherit;
+        }
+
+        .btn-primary {
+            background-color: var(--rose-700);
+            color: #ffffff;
+            box-shadow: var(--shadow-sm);
+        }
+        .btn-primary:hover { background-color: var(--rose-800); }
+
+        .btn-navy {
+            background-color: var(--navy-900);
+            color: #ffffff;
+        }
+        .btn-navy:hover { background-color: var(--navy-800); }
+
+        .btn-emerald {
+            background-color: var(--emerald-600);
+            color: #ffffff;
+        }
+        .btn-emerald:hover { background-color: var(--emerald-700); }
+
+        .btn-amber {
+            background-color: var(--amber-50);
+            border-color: var(--amber-200);
+            color: var(--amber-800);
+        }
+        .btn-amber:hover { background-color: var(--amber-100); }
+
+        .btn-outline {
+            background-color: var(--bg-surface);
+            border-color: var(--slate-300);
+            color: var(--slate-700);
+        }
+        .btn-outline:hover { background-color: var(--slate-100); }
+
+        .btn-outline.active-toggle {
+            background-color: var(--rose-50);
+            border-color: var(--rose-700);
+            color: var(--rose-800);
+        }
+
+        .search-filter-bar {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--slate-100);
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        @media (min-width: 768px) {
+            .search-filter-bar {
+                flex-direction: row;
+                align-items: center;
+            }
+        }
+
+        .search-wrap {
+            position: relative;
+            flex: 1;
+        }
+
+        .search-wrap svg {
+            position: absolute;
+            left: 0.85rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--slate-400);
+            pointer-events: none;
+        }
+
+        input.search-input, select.select-input {
+            width: 100%;
+            padding: 0.58rem 0.9rem;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--slate-300);
+            font-size: 0.86rem;
+            font-family: inherit;
+            color: var(--slate-900);
+            background-color: #ffffff;
+            outline: none;
+            transition: border-color 0.15s, box-shadow 0.15s;
+        }
+
+        input.search-input { padding-left: 2.35rem; }
+        select.select-input { width: auto; font-weight: 600; cursor: pointer; }
+
+        input.search-input:focus, select.select-input:focus {
+            border-color: var(--rose-700);
+            box-shadow: 0 0 0 3px rgba(190, 24, 93, 0.16);
+        }
+
+        .filter-pills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.375rem;
+        }
+
+        .pill-btn {
+            padding: 0.45rem 0.75rem;
+            border-radius: var(--radius-md);
+            font-size: 0.75rem;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            background-color: var(--slate-100);
+            color: var(--slate-700);
+            transition: all 0.15s;
+            font-family: inherit;
+        }
+
+        .pill-btn:hover { background-color: var(--slate-200); }
+        .pill-btn.active {
+            background-color: var(--navy-900);
+            color: #ffffff;
+            font-weight: 700;
+        }
+
+        /* =========================================================================
+           TAB 1: STUDY GUIDE GRID
+        ========================================================================= */
+        .study-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            margin-top: 1.25rem;
+        }
+
+        @media (min-width: 640px) {
+            .study-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (min-width: 1024px) {
+            .study-grid { grid-template-columns: repeat(3, 1fr); }
+        }
+
+        .term-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--slate-200);
+            border-radius: var(--radius-lg);
+            padding: 1.15rem;
+            box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .term-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .term-card.is-mastered-card {
+            border-color: var(--emerald-200);
+            background-color: #fcfffd;
+        }
+
+        .term-card-top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.5rem;
+            margin-bottom: 0.65rem;
+        }
+
+        .std-tag {
+            font-size: 0.68rem;
+            font-weight: 700;
+            padding: 0.18rem 0.55rem;
+            border-radius: 0.375rem;
+            border: 1px solid transparent;
+        }
+
+        .tag-s1 { background: var(--indigo-50); color: var(--indigo-700); border-color: var(--indigo-200); }
+        .tag-s2 { background: var(--plum-50); color: var(--plum-800); border-color: var(--plum-200); }
+        .tag-s3 { background: var(--rose-50); color: var(--rose-800); border-color: var(--rose-200); }
+        .tag-s4 { background: var(--cyan-50); color: var(--cyan-700); border-color: var(--cyan-200); }
+        .tag-s5 { background: var(--amber-50); color: var(--amber-800); border-color: var(--amber-200); }
+
+        .mastery-toggle-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            padding: 0.2rem 0.55rem;
+            border-radius: 9999px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            border: 1px solid var(--slate-200);
+            background: var(--slate-50);
+            color: var(--slate-500);
+            cursor: pointer;
+            transition: all 0.15s;
+            font-family: inherit;
+        }
+        .mastery-toggle-pill:hover {
+            border-color: var(--emerald-600);
+            color: var(--emerald-700);
+        }
+        .mastery-toggle-pill.is-mastered {
+            background: var(--emerald-50);
+            border-color: var(--emerald-600);
+            color: var(--emerald-700);
+        }
+
+        .term-title {
+            font-size: 1.15rem;
+            font-weight: 800;
+            color: var(--navy-900);
+            word-break: break-word;
+        }
+
+        .term-breakdown {
+            display: inline-block;
+            font-size: 0.72rem;
+            color: var(--rose-800);
+            background: var(--rose-50);
+            border: 1px solid var(--rose-200);
+            border-radius: 0.375rem;
+            padding: 0.2rem 0.5rem;
+            margin-top: 0.45rem;
+            font-weight: 700;
+        }
+
+        .term-def-box {
+            margin-top: 0.75rem;
+            padding-top: 0.75rem;
+            border-top: 1px solid var(--slate-100);
+        }
+
+        .term-def-box.blurred-mode { cursor: pointer; }
+
+        .term-def-text {
+            font-size: 0.875rem;
+            color: var(--slate-600);
+            font-weight: 500;
+            transition: filter 0.2s ease;
+        }
+
+        .term-def-text.is-blurred {
+            filter: blur(5px);
+            user-select: none;
+        }
+
+        .peek-hint {
+            display: block;
+            font-size: 0.68rem;
+            font-weight: 700;
+            color: var(--rose-700);
+            margin-top: 0.25rem;
+        }
+
+        /* =========================================================================
+           TAB 2: 3D FLASHCARDS
+        ========================================================================= */
+        .fc-stage {
+            max-width: 42rem;
+            margin: 1.5rem auto 0;
+        }
+
+        .fc-meta-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--slate-600);
+            margin-bottom: 0.55rem;
+            padding: 0 0.25rem;
+        }
+
+        .fc-progress-track {
+            width: 100%;
+            height: 0.45rem;
+            background-color: var(--slate-200);
+            border-radius: 9999px;
+            overflow: hidden;
+            margin-bottom: 1rem;
+        }
+
+        .fc-progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--rose-600), var(--plum-700));
+            transition: width 0.25s ease;
+        }
+
+        .status-badge {
+            padding: 0.2rem 0.65rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 700;
+        }
+        .status-learning { background: var(--rose-100); color: var(--rose-800); }
+        .status-mastered { background: var(--emerald-100); color: var(--emerald-700); }
+
+        .fc-perspective {
+            perspective: 1000px;
+            width: 100%;
+            height: 22rem;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        @media (min-width: 640px) {
+            .fc-perspective { height: 23.5rem; }
+        }
+
+        .fc-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+            transform-style: preserve-3d;
+        }
+
+        .fc-inner.is-flipped {
+            transform: rotateY(180deg);
+        }
+
+        .fc-face {
+            position: absolute;
+            inset: 0;
+            backface-visibility: hidden;
+            -webkit-backface-visibility: hidden;
+            border-radius: var(--radius-xl);
+            padding: 1.75rem 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+        }
+
+        .fc-front {
+            background: #ffffff;
+            border: 2px solid var(--slate-200);
+            box-shadow: var(--shadow-md);
+        }
+
+        .fc-back {
+            background: linear-gradient(145deg, #0f172a, #1e293b);
+            color: #ffffff;
+            border: 2px solid rgba(219, 39, 119, 0.65);
+            box-shadow: var(--shadow-lg);
+            transform: rotateY(180deg);
+        }
+
+        .fc-main-term {
+            font-size: 1.85rem;
+            font-weight: 800;
+            color: var(--navy-900);
+            letter-spacing: -0.02em;
+            word-break: break-word;
+        }
+
+        @media (min-width: 640px) {
+            .fc-main-term { font-size: 2.35rem; }
+        }
+
+        .fc-main-def {
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: #ffffff;
+            line-height: 1.35;
+        }
+
+        @media (min-width: 640px) {
+            .fc-main-def { font-size: 1.65rem; }
+        }
+
+        .fc-example-note {
+            font-size: 0.78rem;
+            color: var(--rose-200);
+            background: rgba(190, 24, 93, 0.24);
+            border: 1px solid rgba(244, 114, 182, 0.35);
+            border-radius: var(--radius-md);
+            padding: 0.45rem 0.85rem;
+            margin-top: 0.75rem;
+            max-width: 32rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .fc-controls {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.65rem;
+            margin-top: 1.25rem;
+        }
+
+        @media (min-width: 640px) {
+            .fc-controls { grid-template-columns: repeat(5, 1fr); }
+        }
+
+        .kbd-hint {
+            display: inline-block;
+            padding: 0.1rem 0.4rem;
+            background: var(--slate-100);
+            border: 1px solid var(--slate-300);
+            border-radius: 0.25rem;
+            font-size: 0.72rem;
+            color: var(--slate-700);
+        }
+
+        /* =========================================================================
+           TAB 3: WORD-BUILDING LAB
+        ========================================================================= */
+        .wb-prompt-box {
+            margin: 1.5rem 0;
+            background: linear-gradient(135deg, #0f172a, #1e293b);
+            color: #ffffff;
+            border-radius: var(--radius-lg);
+            padding: 1.75rem 1.25rem;
+            text-align: center;
+            border: 1px solid rgba(244, 114, 182, 0.38);
+            box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.25);
+        }
+
+        .wb-tray {
+            min-height: 4.25rem;
+            padding: 0.75rem;
+            border-radius: var(--radius-md);
+            background-color: var(--slate-100);
+            border: 2px dashed var(--slate-300);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+        }
+
+        .tray-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 0.85rem;
+            border-radius: var(--radius-md);
+            background-color: var(--navy-900);
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 0.9rem;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .tray-chip button {
+            background: none;
+            border: none;
+            color: var(--slate-400);
+            cursor: pointer;
+            font-size: 0.85rem;
+            line-height: 1;
+        }
+        .tray-chip button:hover { color: var(--rose-400); }
+
+        .wb-bank-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.65rem;
+        }
+
+        @media (min-width: 640px) {
+            .wb-bank-grid { grid-template-columns: repeat(3, 1fr); }
+        }
+        @media (min-width: 768px) {
+            .wb-bank-grid { grid-template-columns: repeat(4, 1fr); }
+        }
+
+        .part-tile {
+            padding: 0.8rem 0.5rem;
+            border-radius: var(--radius-md);
+            background: #ffffff;
+            border: 2px solid var(--slate-200);
+            color: var(--navy-900);
+            font-weight: 700;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.15s;
+            box-shadow: var(--shadow-sm);
+        }
+        .part-tile:hover {
+            border-color: var(--rose-700);
+            background-color: var(--rose-50);
+        }
+
+        .spelling-box {
+            margin-top: 1.25rem;
+            padding-top: 1.25rem;
+            border-top: 1px solid var(--slate-200);
+        }
+
+        .spelling-inner {
+            background-color: var(--rose-50);
+            border: 1px solid var(--rose-200);
+            border-radius: var(--radius-md);
+            padding: 1rem;
+        }
+
+        .spelling-options-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.75rem;
+            margin-top: 0.85rem;
+        }
+
+        @media (min-width: 640px) {
+            .spelling-options-grid { grid-template-columns: repeat(3, 1fr); }
+        }
+
+        .spelling-btn {
+            padding: 0.85rem;
+            border-radius: var(--radius-md);
+            background: #ffffff;
+            border: 2px solid var(--rose-700);
+            color: var(--navy-900);
+            font-weight: 700;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: all 0.15s;
+            word-break: break-word;
+        }
+        .spelling-btn:hover {
+            background: var(--rose-700);
+            color: #ffffff;
+        }
+
+        /* =========================================================================
+           TAB 4: SPEED MATCHING ARENA
+        ========================================================================= */
+        .match-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+            margin-top: 1.25rem;
+        }
+
+        @media (min-width: 768px) {
+            .match-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        .match-col-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.65rem;
+            margin-top: 0.5rem;
+        }
+
+        .match-tile {
+            width: 100%;
+            text-align: left;
+            padding: 0.95rem 1rem;
+            border-radius: var(--radius-md);
+            background: #ffffff;
+            border: 2px solid var(--slate-200);
+            color: var(--navy-900);
+            font-size: 0.9rem;
+            cursor: pointer;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.15s;
+            font-family: inherit;
+        }
+
+        .match-tile:hover:not(:disabled) {
+            border-color: var(--rose-700);
+        }
+
+        .match-tile.selected {
+            border-color: var(--rose-700);
+            background-color: var(--rose-50);
+            box-shadow: 0 0 0 3px rgba(190, 24, 93, 0.16);
+        }
+
+        .match-tile.matched {
+            background-color: var(--emerald-50);
+            border-color: var(--emerald-600);
+            color: var(--emerald-700);
+            opacity: 0.72;
+            cursor: default;
+        }
+
+        .match-tile.wrong {
+            border-color: var(--crimson-600);
+            background-color: var(--crimson-100);
+            animation: shake 0.32s ease-in-out;
+        }
+
+        .complete-card {
+            background: #ffffff;
+            border: 2px solid var(--emerald-600);
+            border-radius: var(--radius-lg);
+            padding: 2rem;
+            text-align: center;
+            max-width: 30rem;
+            margin: 1.5rem auto 0;
+            box-shadow: var(--shadow-md);
+        }
+
+        /* =========================================================================
+           TAB 5: PRACTICE EXAM
+        ========================================================================= */
+        .quiz-wrap {
+            max-width: 54rem;
+            margin: 0 auto;
+        }
+
+        .quiz-item {
+            padding: 1.5rem 0;
+            border-bottom: 1px solid var(--slate-200);
+        }
+        .quiz-item:last-child { border-bottom: none; }
+
+        .quiz-q-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.85rem;
+        }
+
+        .q-num-badge {
+            width: 1.85rem;
+            height: 1.85rem;
+            border-radius: var(--radius-sm);
+            background: var(--slate-100);
+            color: var(--navy-900);
+            font-weight: 800;
+            font-size: 0.8rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            margin-top: 0.1rem;
+        }
+
+        .quiz-options {
+            display: flex;
+            flex-direction: column;
+            gap: 0.6rem;
+            margin-top: 0.9rem;
+        }
+
+        .quiz-opt-btn {
+            width: 100%;
+            text-align: left;
+            padding: 0.85rem 1rem;
+            border-radius: var(--radius-md);
+            background: #ffffff;
+            border: 2px solid var(--slate-200);
+            color: var(--slate-700);
+            font-size: 0.875rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            cursor: pointer;
+            transition: all 0.15s;
+            font-family: inherit;
+        }
+
+        .quiz-opt-btn:hover:not(:disabled) {
+            border-color: var(--rose-700);
+        }
+
+        .quiz-opt-btn.opt-correct {
+            background: var(--emerald-50);
+            border-color: var(--emerald-600);
+            color: var(--emerald-700);
+            font-weight: 700;
+        }
+
+        .quiz-opt-btn.opt-wrong {
+            background: var(--crimson-50);
+            border-color: var(--crimson-600);
+            color: var(--crimson-700);
+        }
+
+        .quiz-opt-btn.opt-dim {
+            background: var(--slate-50);
+            border-color: var(--slate-200);
+            color: var(--slate-400);
+        }
+
+        .opt-letter {
+            width: 1.4rem;
+            height: 1.4rem;
+            border-radius: 9999px;
+            border: 1px solid var(--slate-300);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.7rem;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+
+        .rationale-box {
+            margin-top: 0.85rem;
+            padding: 0.85rem 1rem;
+            border-radius: var(--radius-md);
+            background: var(--slate-100);
+            border: 1px solid var(--slate-200);
+            font-size: 0.8rem;
+            color: var(--slate-700);
+        }
+
+        .feedback-alert {
+            margin-top: 1.25rem;
+            padding: 1rem 1.15rem;
+            border-radius: var(--radius-md);
+            font-size: 0.875rem;
+            border: 1px solid transparent;
+        }
+        .alert-info { background: var(--rose-50); border-color: var(--rose-200); color: var(--rose-800); }
+        .alert-error { background: var(--crimson-50); border-color: var(--crimson-200); color: var(--crimson-700); }
+        .alert-success { background: var(--emerald-50); border-color: var(--emerald-200); color: var(--emerald-700); }
+        .alert-warn { background: var(--amber-50); border-color: var(--amber-200); color: var(--amber-800); }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-6px); }
+            75% { transform: translateX(6px); }
+        }
+        .animate-shake { animation: shake 0.3s ease-in-out; }
+
+        /* Footer */
+        footer {
+            background: #ffffff;
+            border-top: 1px solid var(--slate-200);
+            padding: 1.25rem 0;
+            margin-top: auto;
+            font-size: 0.75rem;
+            color: var(--slate-500);
+        }
+
+        .footer-inner {
+            display: flex;
+            flex-direction: column;
+            gap: 0.4rem;
+            align-items: center;
+            text-align: center;
+        }
+
+        @media (min-width: 640px) {
+            .footer-inner {
+                flex-direction: row;
+                justify-content: space-between;
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Clinical Header -->
+    <header>
+        <div class="container header-inner">
+            <div class="header-top">
+                <div class="brand-group">
+                    <div class="brand-icon" aria-hidden="true">
+                        <!-- Custom Reproductive System / Cellular & Anatomical SVG Icon -->
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="9.5" cy="14.5" r="4.5"/>
+                            <path d="M9.5 19v3"/>
+                            <path d="M7.5 21h4"/>
+                            <circle cx="15.5" cy="8.5" r="3.5"/>
+                            <path d="M18 6l3-3"/>
+                            <path d="M17.5 3H21v3.5"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <div class="badge-row">
+                            <span class="cte-badge">UTAH CTE TEST #704 • STRAND 15 (4 PTS) • 74% CUT SCORE</span>
+                        </div>
+                        <h1 class="site-title">Strand 15: The Reproductive System</h1>
+                        <p class="site-subtitle">Complete OB/GYN &amp; Urologic/Andrologic Review (102 Items) • Abbreviations, Prefixes, Roots, Suffixes &amp; Clinical Terms</p>
+                    </div>
+                </div>
+
+                <!-- Mastery Progress Pill + Reset -->
+                <div class="header-actions">
+                    <div class="mastery-pill">
+                        <div style="text-align: right;">
+                            <div class="mastery-label">Strand 15 Mastery</div>
+                            <div class="mastery-value"><span id="header-mastered-count">0</span> / <span id="header-total-count">102</span> Mastered</div>
+                            <div class="mastery-progress-mini" aria-hidden="true">
+                                <div id="header-mastery-bar" class="mastery-progress-mini-fill"></div>
+                            </div>
+                        </div>
+                        <div class="mastery-medal" aria-hidden="true">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2l2.9 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l7.1-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <button onclick="resetMastery()" class="header-reset-btn" title="Clear all saved mastery progress">
+                        Reset All Progress
+                    </button>
+                </div>
+            </div>
+
+            <!-- Navigation Tabs -->
+            <nav class="tabs-nav" aria-label="Study Modes">
+                <button onclick="switchTab('study')" id="tab-study" class="nav-btn active">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    Study Guide (All 102 Terms)
+                </button>
+                <button onclick="switchTab('flashcards')" id="tab-flashcards" class="nav-btn">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 10h20"/></svg>
+                    3D Flashcards
+                </button>
+                <button onclick="switchTab('builder')" id="tab-builder" class="nav-btn">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                    Word-Building Lab
+                </button>
+                <button onclick="switchTab('matching')" id="tab-matching" class="nav-btn">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                    Speed Matching
+                </button>
+                <button onclick="switchTab('quiz')" id="tab-quiz" class="nav-btn">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                    Practice Exam (20 Qs)
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="container">
+
+        <!-- ==========================================
+             TAB 1: STUDY GUIDE / REFERENCE (102 TERMS)
+        =========================================== -->
+        <section id="view-study" class="tab-view">
+            <div class="card-panel">
+                <div class="panel-header">
+                    <div>
+                        <h2 class="section-title">Complete Strand 15 Standards Reference (102 Exact Items)</h2>
+                        <p class="section-sub">Every required abbreviation, prefix, word root/combining form, suffix, and clinical/diagnostic term from Strand 15 Standards 1–5.</p>
+                    </div>
+                    <div>
+                        <button id="toggle-blur-btn" onclick="toggleSelfTestBlur()" class="btn btn-outline">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/></svg>
+                            <span>Hide Definitions (Self-Test)</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Search & Standard Filter Controls -->
+                <div class="search-filter-bar">
+                    <div class="search-wrap">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                        <input type="text" id="study-search" class="search-input" oninput="renderStudyGuide()" placeholder="Search term, definition, word breakdown, or category...">
+                    </div>
+                    <div class="filter-pills" id="study-filters">
+                        <button onclick="setStudyFilter('ALL')" data-filter="ALL" class="pill-btn active">All (102)</button>
+                        <button onclick="setStudyFilter('Std 1: Abbreviations')" data-filter="Std 1: Abbreviations" class="pill-btn">Std 1: Abbreviations (11)</button>
+                        <button onclick="setStudyFilter('Std 2: Prefixes')" data-filter="Std 2: Prefixes" class="pill-btn">Std 2: Prefixes (2)</button>
+                        <button onclick="setStudyFilter('Std 3: Roots/Combining Forms')" data-filter="Std 3: Roots/Combining Forms" class="pill-btn">Std 3: Roots (37)</button>
+                        <button onclick="setStudyFilter('Std 4: Suffixes')" data-filter="Std 4: Suffixes" class="pill-btn">Std 4: Suffixes (5)</button>
+                        <button onclick="setStudyFilter('Std 5: Clinical Terms')" data-filter="Std 5: Clinical Terms" class="pill-btn">Std 5: Clinical Terms (47)</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Study Cards Grid -->
+            <div id="study-grid" class="study-grid"></div>
+        </section>
+
+        <!-- ==========================================
+             TAB 2: INTERACTIVE 3D FLASHCARDS
+        =========================================== -->
+        <section id="view-flashcards" class="tab-view hidden">
+            <div class="card-panel">
+                <div class="panel-header">
+                    <div>
+                        <h2 class="section-title">Active Recall 3D Flashcards</h2>
+                        <p class="section-sub">Click card or press <span class="kbd-hint font-mono">Space</span> / <span class="kbd-hint font-mono">Enter</span> to flip, <span class="kbd-hint font-mono">←</span> <span class="kbd-hint font-mono">→</span> to navigate, and <span class="kbd-hint font-mono">M</span> to toggle Mastered.</p>
+                    </div>
+                    <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center;">
+                        <select id="fc-category-select" class="select-input" onchange="initFlashcardDeck()">
+                            <option value="ALL">All Strand 15 Terms (102)</option>
+                            <option value="STILL_LEARNING">Still Learning Only</option>
+                            <option value="Std 1: Abbreviations">Std 1: Abbreviations (11)</option>
+                            <option value="Std 2: Prefixes">Std 2: Prefixes (2)</option>
+                            <option value="Std 3: Roots/Combining Forms">Std 3: Roots (37)</option>
+                            <option value="Std 4: Suffixes">Std 4: Suffixes (5)</option>
+                            <option value="Std 5: Clinical Terms">Std 5: Clinical Terms (47)</option>
+                        </select>
+                        <button onclick="shuffleFlashcards()" class="btn btn-outline">
+                            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/></svg>
+                            Shuffle Deck
+                        </button>
+                        <button onclick="resetFlashcardDeck()" class="btn btn-outline">
+                            Reset Deck
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Flashcard Stage -->
+            <div class="fc-stage">
+                <div class="fc-meta-bar">
+                    <span id="fc-counter">Card 1 of 102</span>
+                    <span id="fc-status-badge" class="status-badge status-learning">Still Learning</span>
+                </div>
+                <div class="fc-progress-track">
+                    <div id="fc-progress-bar" class="fc-progress-fill" style="width: 1%;"></div>
+                </div>
+
+                <div class="fc-perspective" onclick="flipFlashcard()">
+                    <div id="fc-inner" class="fc-inner">
+                        <!-- Front Face -->
+                        <div class="fc-face fc-front">
+                            <span id="fc-front-cat" class="std-tag tag-s3">Std 3: Roots/Combining Forms</span>
+                            <div>
+                                <h3 id="fc-front-text" class="fc-main-term font-mono">hyster/o</h3>
+                                <p style="font-size: 0.72rem; color: var(--slate-400); margin-top: 1rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em;">Click or Press Space to Flip</p>
+                            </div>
+                            <div style="color: var(--slate-300);">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/></svg>
+                            </div>
+                        </div>
+
+                        <!-- Back Face -->
+                        <div class="fc-face fc-back">
+                            <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; justify-content: center;">
+                                <span id="fc-back-term" class="font-mono" style="padding: 0.25rem 0.75rem; border-radius: 9999px; font-size: 0.78rem; font-weight: 700; background: rgba(190, 24, 93, 0.35); color: var(--rose-200); border: 1px solid rgba(244, 114, 182, 0.45);">hyster/o</span>
+                                <span id="fc-back-mastery-tag" class="status-badge status-learning">Still Learning</span>
+                            </div>
+                            <div>
+                                <div id="fc-back-breakdown" class="font-mono hidden" style="font-size: 0.85rem; font-weight: 700; color: #f9a8d4; background: rgba(219, 39, 119, 0.18); border: 1px solid rgba(244, 114, 182, 0.38); padding: 0.3rem 0.75rem; border-radius: 9999px; display: inline-block; margin-bottom: 0.75rem;"></div>
+                                <p id="fc-back-text" class="fc-main-def">uterus</p>
+                                <p id="fc-back-example" class="fc-example-note"></p>
+                            </div>
+                            <div style="font-size: 0.75rem; color: var(--slate-400);">Strand 15: The Reproductive System • Press M to toggle Mastered</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Flashcard Controls -->
+                <div class="fc-controls">
+                    <button onclick="prevFlashcard()" class="btn btn-outline" style="padding: 0.85rem;">← Previous</button>
+                    <button onclick="flipFlashcard()" class="btn btn-navy" style="padding: 0.85rem;">Flip Card</button>
+                    <button onclick="markFlashcard(false)" class="btn btn-amber" style="padding: 0.85rem;">Still Learning</button>
+                    <button onclick="markFlashcard(true)" class="btn btn-emerald" style="padding: 0.85rem;">✓ Got It (Mastered)</button>
+                    <button onclick="nextFlashcard()" class="btn btn-outline" style="padding: 0.85rem;">Next →</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             TAB 3: WORD-BUILDING LAB (18 REPRODUCTIVE TERMS)
+        =========================================== -->
+        <section id="view-builder" class="tab-view hidden">
+            <div class="card-panel">
+                <div class="panel-header" style="padding-bottom: 1.25rem; border-bottom: 1px solid var(--slate-100);">
+                    <div>
+                        <div style="display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+                            <span class="std-tag tag-s1">Strand 1 + Strand 15 Rules</span>
+                            <span style="font-size: 0.78rem; font-weight: 700; color: var(--slate-500);">Challenge <span id="wb-progress">1 / 18</span></span>
+                        </div>
+                        <h2 class="section-title" style="margin-top: 0.3rem;">Reproductive Word-Building Lab</h2>
+                        <p class="section-sub">Step 1: Click word-part tiles in exact sequence and verify order. Step 2: Select the proper final spelling applying Strand 1 combining-vowel rules.</p>
+                    </div>
+                    <div style="background: var(--slate-50); border: 1px solid var(--slate-200); border-radius: var(--radius-md); padding: 0.6rem 1rem; display: inline-flex; align-items: center; gap: 0.75rem; align-self: flex-start;">
+                        <div>
+                            <div style="font-size: 0.7rem; font-weight: 700; color: var(--slate-500); text-transform: uppercase;">Lab Score</div>
+                            <div style="font-size: 1rem; font-weight: 800; color: var(--navy-900);"><span id="wb-score">0</span> / 18 Solved</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Target Definition Prompt -->
+                <div class="wb-prompt-box">
+                    <div style="font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--rose-400); font-weight: 800; margin-bottom: 0.35rem;">Construct the Medical Term For:</div>
+                    <h3 id="wb-target-def" style="font-size: 1.5rem; font-weight: 800;">absence of menstrual flow</h3>
+                    <p id="wb-target-hint" style="font-size: 0.8rem; color: var(--slate-300); margin-top: 0.45rem;">Requires: Prefix + Combining Form + Suffix</p>
+                </div>
+
+                <!-- Selected Parts Assembly Tray -->
+                <div style="margin-bottom: 1.35rem;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.45rem; flex-wrap: wrap; gap: 0.5rem;">
+                        <span style="font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--slate-500);">1. Assembly Tray (Click parts below in exact order)</span>
+                        <div style="display: flex; gap: 0.65rem; align-items: center;">
+                            <button onclick="undoBuilderPart()" style="background: none; border: none; color: var(--slate-700); font-size: 0.78rem; font-weight: 700; cursor: pointer;">↩ Undo</button>
+                            <button onclick="clearBuilderTray()" style="background: none; border: none; color: var(--crimson-600); font-size: 0.78rem; font-weight: 700; cursor: pointer;">Clear</button>
+                            <button id="wb-check-btn" onclick="checkBuilderOrder()" class="btn btn-navy" style="padding: 0.4rem 0.85rem; font-size: 0.78rem;">Check Order</button>
+                        </div>
+                    </div>
+                    <div id="wb-tray" class="wb-tray">
+                        <span style="font-size: 0.85rem; color: var(--slate-400); font-style: italic;">Click word parts from the bank below...</span>
+                    </div>
+                </div>
+
+                <!-- Word Part Bank -->
+                <div>
+                    <div style="font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: var(--slate-500); margin-bottom: 0.5rem;">2. Strand 15 Word Part Bank</div>
+                    <div id="wb-bank" class="wb-bank-grid"></div>
+                </div>
+
+                <!-- Step 2: Combining Vowel / Final Spelling Check -->
+                <div id="wb-spelling-step" class="spelling-box hidden">
+                    <div class="spelling-inner">
+                        <h4 style="font-size: 0.9rem; font-weight: 800; color: var(--rose-900);">Step 2 — Apply Strand 1 Combining-Vowel Rules: Choose the correct final spelling!</h4>
+                        <p style="font-size: 0.78rem; color: var(--slate-700); margin-top: 0.25rem;">Rule check: Drop the combining vowel "o" before a suffix starting with a vowel (-itis, -ectomy, -ism, -tomy), and keep the combining vowel "o" before a consonant suffix (-plasty, -rrhaphy, -gram, -scope, -pexy) or between two word roots.</p>
+                        <div id="wb-spelling-options" class="spelling-options-grid"></div>
+                    </div>
+                </div>
+
+                <!-- Feedback Banner -->
+                <div id="wb-feedback" class="feedback-alert hidden"></div>
+
+                <!-- Next Challenge Button -->
+                <div style="margin-top: 1.25rem; display: flex; justify-content: flex-end;">
+                    <button id="wb-next-btn" onclick="nextBuilderChallenge()" class="btn btn-primary hidden" style="padding: 0.75rem 1.35rem;">
+                        Next Challenge →
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             TAB 4: SPEED MATCHING ARENA
+        =========================================== -->
+        <section id="view-matching" class="tab-view hidden">
+            <div class="card-panel">
+                <div class="panel-header">
+                    <div>
+                        <h2 class="section-title">Speed Matching Arena</h2>
+                        <p class="section-sub">Select a medical term/abbreviation and its matching definition to clear the 6-pair board.</p>
+                    </div>
+                    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem;">
+                        <select id="match-filter" class="select-input" onchange="startNewMatchRound()">
+                            <option value="ALL">Mixed Strand 15 (102)</option>
+                            <option value="Std 1: Abbreviations">Abbreviations (11)</option>
+                            <option value="Std 3: Roots/Combining Forms">Word Roots (37)</option>
+                            <option value="Std 5: Clinical Terms">Clinical Terms (47)</option>
+                        </select>
+                        <div class="font-mono" style="padding: 0.5rem 0.85rem; border-radius: var(--radius-md); background: var(--navy-900); color: #ffffff; font-size: 0.85rem; font-weight: 700;">
+                            ⏱ <span id="match-timer">0.0s</span>
+                        </div>
+                        <div style="padding: 0.5rem 0.85rem; border-radius: var(--radius-md); background: var(--rose-50); border: 1px solid var(--rose-200); color: var(--rose-800); font-size: 0.82rem; font-weight: 700;">
+                            Matches: <span id="match-count-display">0/6</span>
+                        </div>
+                        <div style="padding: 0.5rem 0.85rem; border-radius: var(--radius-md); background: var(--emerald-50); border: 1px solid var(--emerald-200); color: var(--emerald-700); font-size: 0.82rem; font-weight: 700;">
+                            Best: <span id="match-best">--</span>
+                        </div>
+                        <div style="padding: 0.5rem 0.85rem; border-radius: var(--radius-md); background: var(--amber-50); border: 1px solid var(--amber-200); color: var(--amber-800); font-size: 0.82rem; font-weight: 700;">
+                            Streak: <span id="match-streak">0</span>
+                        </div>
+                        <button onclick="startNewMatchRound()" class="btn btn-primary">New Round</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Matching Board -->
+            <div id="match-board" class="match-grid">
+                <div>
+                    <div style="font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; color: var(--slate-400); padding-left: 0.25rem;">Terms / Roots / Abbreviations</div>
+                    <div id="match-terms-col" class="match-col-list"></div>
+                </div>
+                <div>
+                    <div style="font-size: 0.72rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; color: var(--slate-400); padding-left: 0.25rem;">Definitions</div>
+                    <div id="match-defs-col" class="match-col-list"></div>
+                </div>
+            </div>
+
+            <!-- Round Complete Card -->
+            <div id="match-complete" class="complete-card hidden">
+                <div style="width: 3.5rem; height: 3.5rem; border-radius: 9999px; background: var(--emerald-100); color: var(--emerald-600); display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem;">
+                    🏆
+                </div>
+                <h3 style="font-size: 1.4rem; font-weight: 800; color: var(--navy-900);">Board Cleared!</h3>
+                <p style="color: var(--slate-600); margin-top: 0.35rem; font-size: 0.92rem;">You matched all 6 reproductive pairs in <span id="match-final-time" class="font-mono" style="font-weight: 800; color: var(--emerald-700);">0.0s</span>.</p>
+                <button onclick="startNewMatchRound()" class="btn btn-primary" style="margin-top: 1.25rem; padding: 0.75rem 1.5rem;">New Round</button>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             TAB 5: STATE EXAM PRACTICE EXAM (20 QUESTIONS)
+        =========================================== -->
+        <section id="view-quiz" class="tab-view hidden">
+            <div class="card-panel quiz-wrap">
+                <div class="panel-header" style="padding-bottom: 1.25rem; border-bottom: 1px solid var(--slate-200);">
+                    <div>
+                        <span class="std-tag" style="background: var(--navy-900); color: #ffffff;">Utah CTE Test #704 Simulation • 4 Test Points</span>
+                        <h2 class="section-title" style="margin-top: 0.35rem;">Strand 15 Self-Grading Practice Exam (20 Questions)</h2>
+                        <p class="section-sub">State-exam style clinical scenarios covering OB/GYN &amp; urology chart abbreviations (LMP, VBAC, DRE, HPV, L &amp; D, PMS, STD, STI, NB), root distinctions (hyster/o, metr/o, uter/o; oophor/o, ovari/o; orchi/o, orchid/o, test/o, testicul/o; colp/o, vagin/o; mamm/o, mast/o; amni/o, chori/o), and clinical pathologies/procedures. Cut score: <strong>74%</strong>.</p>
+                    </div>
+                    <div style="display: flex; flex-direction: column; align-items: flex-end; gap: 0.5rem;">
+                        <div style="background: var(--rose-50); border: 1px solid var(--rose-200); border-radius: var(--radius-md); padding: 0.45rem 0.85rem; text-align: right;">
+                            <div style="font-size: 0.68rem; font-weight: 800; text-transform: uppercase; color: var(--rose-800);">Live Score Tracker</div>
+                            <div id="quiz-live-score" style="font-size: 0.95rem; font-weight: 800; color: var(--navy-900);">0 / 20 Correct (0%)</div>
+                        </div>
+                        <button onclick="retakeQuizShuffled()" class="btn btn-outline">Retake Exam (Shuffled)</button>
+                    </div>
+                </div>
+
+                <!-- Quiz Score Banner -->
+                <div id="quiz-results-banner" class="feedback-alert hidden"></div>
+
+                <!-- Questions List -->
+                <div id="quiz-questions-container"></div>
+
+                <!-- Submit / Summary Quiz Bar -->
+                <div style="margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid var(--slate-200); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem;">
+                    <span id="quiz-answered-status" style="font-size: 0.875rem; font-weight: 600; color: var(--slate-500);">0 of 20 questions answered</span>
+                    <button id="submit-quiz-btn" onclick="gradeQuiz()" class="btn btn-primary" style="padding: 0.85rem 1.75rem; font-weight: 800;">
+                        Submit / View Final Score
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-inner">
+            <div>Aligned to <strong>2026 Utah CTE Medical Terminology Strands &amp; Standards (Test #704)</strong></div>
+            <div>Strand 15: The Reproductive System (4 Exam Points • 74% Cut Score • 102 Items) • Self-Contained Review Module</div>
+        </div>
+    </footer>
+
+    <!-- Application Logic & Complete Strand 15 Dataset -->
+    <script>
+        // =========================================================================
+        // 1. COMPLETE STRAND 15 DATASET (ALL 102 EXACT ITEMS FROM STANDARDS DOC)
+        // =========================================================================
+        const strand15Data = [
+            // Standard 1: Medical Abbreviations (11 items)
+            { id: 's15-1-1', category: 'Std 1: Abbreviations', term: 'DRE', definition: 'digital rectal examination', example: 'Clinical exam palpating the prostate gland through the anterior rectal wall.' },
+            { id: 's15-1-2', category: 'Std 1: Abbreviations', term: 'GYN/gyn', definition: 'gynecology', example: 'Medical specialty focused on the female reproductive system and disorders.' },
+            { id: 's15-1-3', category: 'Std 1: Abbreviations', term: 'HPV', definition: 'Human papilloma virus', example: 'Common sexually transmitted virus associated with genital warts and cervical dysplasia.' },
+            { id: 's15-1-4', category: 'Std 1: Abbreviations', term: 'L & D', definition: 'labor and delivery', example: 'Hospital obstetrical unit dedicated to childbirth and intrapartum care.' },
+            { id: 's15-1-5', category: 'Std 1: Abbreviations', term: 'LMP', definition: 'last menstrual period', example: 'First day of a patient’s most recent menstrual bleed, used to estimate due date.' },
+            { id: 's15-1-6', category: 'Std 1: Abbreviations', term: 'NB', definition: 'newborn', example: 'Charting abbreviation referring to a newly delivered neonate.' },
+            { id: 's15-1-7', category: 'Std 1: Abbreviations', term: 'OB/ob', definition: 'obstetrics', example: 'Medical specialty managing pregnancy, childbirth, and the postpartum period.' },
+            { id: 's15-1-8', category: 'Std 1: Abbreviations', term: 'PMS', definition: 'pre-menstrual syndrome', example: 'Physical and emotional symptoms occurring in the luteal phase prior to menstruation.' },
+            { id: 's15-1-9', category: 'Std 1: Abbreviations', term: 'STD', definition: 'sexually transmitted disease', example: 'Clinical disease state resulting from a pathogen transmitted via sexual contact.' },
+            { id: 's15-1-10', category: 'Std 1: Abbreviations', term: 'STI', definition: 'sexually transmitted infection', example: 'Infection transmitted through sexual contact, including asymptomatic carriers.' },
+            { id: 's15-1-11', category: 'Std 1: Abbreviations', term: 'VBAC', definition: 'vaginal birth after cesarean section', example: 'Vaginal delivery in a patient who previously gave birth via cesarean section.' },
+
+            // Standard 2: Prefixes (2 items)
+            { id: 's15-2-1', category: 'Std 2: Prefixes', term: 'ectop-', definition: 'out of place', example: 'Used in ectopic pregnancy (implantation of a fertilized ovum outside the uterus).' },
+            { id: 's15-2-2', category: 'Std 2: Prefixes', term: 'meso-', definition: 'middle', example: 'Used in mesometrium and mesoderm (middle embryonic germ layer).' },
+
+            // Standard 3: Word Roots / Combining Forms (37 items)
+            { id: 's15-3-1', category: 'Std 3: Roots/Combining Forms', term: 'amni/o', definition: 'amnion; inner fetal membrane', example: 'Innermost fluid-filled sac surrounding the fetus; used in amniocentesis.' },
+            { id: 's15-3-2', category: 'Std 3: Roots/Combining Forms', term: 'andr/o', definition: 'male', example: 'Used in androgen, andrology, and android.' },
+            { id: 's15-3-3', category: 'Std 3: Roots/Combining Forms', term: 'arch/e', definition: 'beginning or first', example: 'Used in menarche (the first occurrence of menstruation).' },
+            { id: 's15-3-4', category: 'Std 3: Roots/Combining Forms', term: 'balan/o', definition: 'penis', example: 'Specifically refers to the glans penis; used in balanitis and balanoplasty.' },
+            { id: 's15-3-5', category: 'Std 3: Roots/Combining Forms', term: 'colp/o', definition: 'vagina', example: 'Greek root for vagina; used in colporrhaphy and colposcopy.' },
+            { id: 's15-3-6', category: 'Std 3: Roots/Combining Forms', term: 'chori/o', definition: 'chorion; outer fetal membrane', example: 'Outermost extraembryonic fetal membrane contributing to the placenta.' },
+            { id: 's15-3-7', category: 'Std 3: Roots/Combining Forms', term: 'crypt/o', definition: 'hidden', example: 'Used in cryptorchidism (hidden or undescended testes).' },
+            { id: 's15-3-8', category: 'Std 3: Roots/Combining Forms', term: 'derm/o', definition: 'skin', example: 'Used in dermoid cyst of the ovary and embryonic ectoderm/mesoderm.' },
+            { id: 's15-3-9', category: 'Std 3: Roots/Combining Forms', term: 'epididym/o', definition: 'epididymis', example: 'Coiled duct atop each testis where sperm mature; used in orchiepididymitis.' },
+            { id: 's15-3-10', category: 'Std 3: Roots/Combining Forms', term: 'episi/o', definition: 'vulva', example: 'Used in episiotomy (incision into the perineum/vulvar region during delivery).' },
+            { id: 's15-3-11', category: 'Std 3: Roots/Combining Forms', term: 'genit/o', definition: 'reproductive organs', example: 'Used in genital (pertaining to the reproductive organs).' },
+            { id: 's15-3-12', category: 'Std 3: Roots/Combining Forms', term: 'gonad/o', definition: 'gonads; sex glands', example: 'Refers to the ovaries in females and testes in males (primary sex glands).' },
+            { id: 's15-3-13', category: 'Std 3: Roots/Combining Forms', term: 'gravid/o', definition: 'pregnancy', example: 'Used in gravida (number of pregnancies a woman has had).' },
+            { id: 's15-3-14', category: 'Std 3: Roots/Combining Forms', term: 'gyn/o', definition: 'female', example: 'Used in gynecology and gynandroid.' },
+            { id: 's15-3-15', category: 'Std 3: Roots/Combining Forms', term: 'gynec/o', definition: 'female', example: 'Used in gynecologist (a specialist of female disorders) and gynecology.' },
+            { id: 's15-3-16', category: 'Std 3: Roots/Combining Forms', term: 'hymen/o', definition: 'hymen', example: 'Mucous membrane fold partially covering the vaginal orifice; used in hymenotomy.' },
+            { id: 's15-3-17', category: 'Std 3: Roots/Combining Forms', term: 'hyster/o', definition: 'uterus', example: 'Used in hysterectomy, hysterogram, and hysteroscope.' },
+            { id: 's15-3-18', category: 'Std 3: Roots/Combining Forms', term: 'lact/o', definition: 'milk', example: 'Used in lactation (milk producing) and prolactin.' },
+            { id: 's15-3-19', category: 'Std 3: Roots/Combining Forms', term: 'mamm/o', definition: 'breast', example: 'Latin root for breast; used in mammogram and mammary glands.' },
+            { id: 's15-3-20', category: 'Std 3: Roots/Combining Forms', term: 'mast/o', definition: 'breast', example: 'Greek root for breast; used in mastopexy and mastectomy.' },
+            { id: 's15-3-21', category: 'Std 3: Roots/Combining Forms', term: 'metr/o', definition: 'uterus', example: 'Used in myometrium and endometrium.' },
+            { id: 's15-3-22', category: 'Std 3: Roots/Combining Forms', term: 'men/o', definition: 'menstruation', example: 'Used in amenorrhea, menarche, menopause, and menstrual.' },
+            { id: 's15-3-23', category: 'Std 3: Roots/Combining Forms', term: 'oophor/o', definition: 'ovary', example: 'Greek root for ovary; used in oophoritis and oophoropathy.' },
+            { id: 's15-3-24', category: 'Std 3: Roots/Combining Forms', term: 'orchi/o', definition: 'testes', example: 'Used in orchiectomy, orchiepididymitis, orchiopathy, and orchitis.' },
+            { id: 's15-3-25', category: 'Std 3: Roots/Combining Forms', term: 'orchid/o', definition: 'testes', example: 'Used in cryptorchidism and orchidalgia.' },
+            { id: 's15-3-26', category: 'Std 3: Roots/Combining Forms', term: 'ovari/o', definition: 'ovary; female sex gland', example: 'Latin root for ovary; used in ovarian cyst and ovariectomy.' },
+            { id: 's15-3-27', category: 'Std 3: Roots/Combining Forms', term: 'perine/o', definition: 'perineum; pelvis floor', example: 'Used in perineum and vaginoperineoplasty.' },
+            { id: 's15-3-28', category: 'Std 3: Roots/Combining Forms', term: 'prostat/o', definition: 'prostate gland', example: 'Used in prostatectomy and prostatitis.' },
+            { id: 's15-3-29', category: 'Std 3: Roots/Combining Forms', term: 'salping/o', definition: 'uterine tube', example: 'Refers to the fallopian (uterine) tube; used in salpingectomy and salpingitis.' },
+            { id: 's15-3-30', category: 'Std 3: Roots/Combining Forms', term: 'sperm', definition: 'male reproductive cells; gametes', example: 'Haploid male sex cells carrying paternal chromosomes.' },
+            { id: 's15-3-31', category: 'Std 3: Roots/Combining Forms', term: 'spermat/o', definition: 'spermatozoa, sperm cells', example: 'Used in spermatocyte and spermatogenesis.' },
+            { id: 's15-3-32', category: 'Std 3: Roots/Combining Forms', term: 'test/o', definition: 'testis, testicle', example: 'Used in testosterone and testis.' },
+            { id: 's15-3-33', category: 'Std 3: Roots/Combining Forms', term: 'testicul/o', definition: 'testicle', example: 'Used in testicular (pertaining to the testes).' },
+            { id: 's15-3-34', category: 'Std 3: Roots/Combining Forms', term: 'uter/o', definition: 'uterus', example: 'Latin root for uterus; used in intrauterine and uterine.' },
+            { id: 's15-3-35', category: 'Std 3: Roots/Combining Forms', term: 'vagin/o', definition: 'vagina', example: 'Latin root for vagina; used in vaginal and vaginoperineoplasty.' },
+            { id: 's15-3-36', category: 'Std 3: Roots/Combining Forms', term: 'vesic/o', definition: 'bladder', example: 'Refers to the urinary bladder or seminal vesicles.' },
+            { id: 's15-3-37', category: 'Std 3: Roots/Combining Forms', term: 'vulv/o', definition: 'vulva', example: 'External female genitalia; used in vulvitis and vulvovaginitis.' },
+
+            // Standard 4: Suffixes (5 items)
+            { id: 's15-4-1', category: 'Std 4: Suffixes', term: '-cyesis', definition: 'pregnancy', example: 'Used in pseudocyesis (false pregnancy).' },
+            { id: 's15-4-2', category: 'Std 4: Suffixes', term: '-natal', definition: 'birth', example: 'Used in prenatal, perinatal, and postnatal.' },
+            { id: 's15-4-3', category: 'Std 4: Suffixes', term: '-partum', definition: 'childbirth, labor', example: 'Used in antepartum, intrapartum, and postpartum.' },
+            { id: 's15-4-4', category: 'Std 4: Suffixes', term: '-phylaxis', definition: 'protection', example: 'Used in prophylaxis (preventive treatment/protection against disease or pregnancy).' },
+            { id: 's15-4-5', category: 'Std 4: Suffixes', term: '-tocia', definition: 'labor', example: 'Used in dystocia (difficult or prolonged labor and delivery).' },
+
+            // Standard 5: Diseases, Disorders, Procedures, Treatments, & Diagnostic Tests (47 items)
+            { id: 's15-5-1', category: 'Std 5: Clinical Terms', term: 'amenorrhea', breakdown: 'a- + men/o + -rrhea', definition: 'absence of menstrual flow', example: 'Primary or secondary absence of menses due to pregnancy, hormonal imbalance, or low body fat.' },
+            { id: 's15-5-2', category: 'Std 5: Clinical Terms', term: 'androgen', breakdown: 'andr/o + -gen', definition: 'male producing', example: 'Steroid hormone (such as testosterone) that stimulates male secondary sex characteristics.' },
+            { id: 's15-5-3', category: 'Std 5: Clinical Terms', term: 'andrology', breakdown: 'andr/o + -logy', definition: 'study of males (usually pertaining to diseases)', example: 'Medical specialty addressing male reproductive health and urologic disorders.' },
+            { id: 's15-5-4', category: 'Std 5: Clinical Terms', term: 'android', breakdown: 'andr/o + -oid', definition: 'resembling man', example: 'Refers to masculine form or an android-shaped pelvis.' },
+            { id: 's15-5-5', category: 'Std 5: Clinical Terms', term: 'ananthropy', breakdown: 'an- + anthrop/o + -y', definition: 'having the characteristics of a man', example: 'Strand 15 clinical vocabulary term defined as having the characteristics of a man.' },
+            { id: 's15-5-6', category: 'Std 5: Clinical Terms', term: 'anovulation', breakdown: 'an- + ovul/o + -ation', definition: 'absence of ovulation', example: 'Failure of the ovary to release a mature oocyte during a menstrual cycle.' },
+            { id: 's15-5-7', category: 'Std 5: Clinical Terms', term: 'balanitis', breakdown: 'balan/o + -itis', definition: 'inflammation of the penis', example: 'Inflammation of the glans penis, often associated with poor hygiene or infection.' },
+            { id: 's15-5-8', category: 'Std 5: Clinical Terms', term: 'balanoplasty', breakdown: 'balan/o + -plasty', definition: 'surgical repair of the penis', example: 'Reconstructive surgical procedure repairing the glans penis.' },
+            { id: 's15-5-9', category: 'Std 5: Clinical Terms', term: 'circumcise', breakdown: 'circum- + -cise', definition: 'to cut around', example: 'Surgical excision of the prepuce (foreskin) around the glans penis.' },
+            { id: 's15-5-10', category: 'Std 5: Clinical Terms', term: 'colporrhaphy', breakdown: 'colp/o + -rrhaphy', definition: 'repair of the vagina', example: 'Surgical suturing/reinforcement of the vaginal wall (e.g., to repair a cystocele).' },
+            { id: 's15-5-11', category: 'Std 5: Clinical Terms', term: 'cryptorchidism', breakdown: 'crypt/o + orchid/o + -ism', definition: 'hidden or undescended testes', example: 'Developmental condition in which one or both testes fail to descend into the scrotum.' },
+            { id: 's15-5-12', category: 'Std 5: Clinical Terms', term: 'dystocia', breakdown: 'dys- + -tocia', definition: 'difficult or prolonged labor and delivery', example: 'Abnormal or slow progression of labor caused by fetal position or pelvic size.' },
+            { id: 's15-5-13', category: 'Std 5: Clinical Terms', term: 'episiotomy', breakdown: 'episi/o + -tomy', definition: 'incision into the perineum', example: 'Surgical incision made into the perineum during the second stage of labor to widen the vaginal opening.' },
+            { id: 's15-5-14', category: 'Std 5: Clinical Terms', term: 'genital', breakdown: 'genit/o + -al', definition: 'pertaining to the reproductive organs', example: 'Refers to external and internal male or female reproductive structures.' },
+            { id: 's15-5-15', category: 'Std 5: Clinical Terms', term: 'gravida', breakdown: 'gravid/o + -a', definition: 'number of pregnancies a woman has had', example: 'Obstetric notation (e.g., Gravida 3) counting total pregnancies regardless of outcome.' },
+            { id: 's15-5-16', category: 'Std 5: Clinical Terms', term: 'gynecologist', breakdown: 'gynec/o + -logist', definition: 'a specialist of female disorders', example: 'Physician specializing in diagnosing and treating disorders of the female reproductive tract.' },
+            { id: 's15-5-17', category: 'Std 5: Clinical Terms', term: 'gynecology', breakdown: 'gynec/o + -logy', definition: 'study of the female and female disorders', example: 'Branch of medicine dealing with female reproductive health and diseases.' },
+            { id: 's15-5-18', category: 'Std 5: Clinical Terms', term: 'hymenotomy', breakdown: 'hymen/o + -tomy', definition: 'incision into the hymen', example: 'Surgical incision of an imperforate or thickened hymen.' },
+            { id: 's15-5-19', category: 'Std 5: Clinical Terms', term: 'hysterectomy', breakdown: 'hyster/o + -ectomy', definition: 'removal of the uterus', example: 'Surgical excision of the uterus (total, subtotal, or radical).' },
+            { id: 's15-5-20', category: 'Std 5: Clinical Terms', term: 'hysterogram', breakdown: 'hyster/o + -gram', definition: 'picture (or x-ray) of the uterus', example: 'Radiographic record/image produced during hysterosalpingography.' },
+            { id: 's15-5-21', category: 'Std 5: Clinical Terms', term: 'hysteroscope', breakdown: 'hyster/o + -scope', definition: 'instrument to view within the uterus', example: 'Thin lighted endoscope inserted through the cervix to inspect the uterine cavity.' },
+            { id: 's15-5-22', category: 'Std 5: Clinical Terms', term: 'lactation', breakdown: 'lact/o + -ation', definition: 'milk producing', example: 'Secretion of breast milk by the mammary glands following childbirth.' },
+            { id: 's15-5-23', category: 'Std 5: Clinical Terms', term: 'mammogram', breakdown: 'mamm/o + -gram', definition: 'picture (x-ray) of the breast', example: 'Low-dose radiographic image used to screen for and diagnose breast lesions.' },
+            { id: 's15-5-24', category: 'Std 5: Clinical Terms', term: 'mastopexy', breakdown: 'mast/o + -pexy', definition: 'surgical fixation of the breast', example: 'Surgical elevation and reshaping (fixation) of ptotic breast tissue.' },
+            { id: 's15-5-25', category: 'Std 5: Clinical Terms', term: 'menarche', breakdown: 'men/o + arch/e', definition: 'the first occurrence of menstruation', example: 'Onset of a female’s first menstrual period during puberty.' },
+            { id: 's15-5-26', category: 'Std 5: Clinical Terms', term: 'menopause', breakdown: 'men/o + -pause', definition: 'cessation or end of the menstrual cycle', example: 'Permanent end of menstruation after 12 consecutive months without a period.' },
+            { id: 's15-5-27', category: 'Std 5: Clinical Terms', term: 'menstrual', breakdown: 'menstru/o + -al', definition: 'pertaining to the menstrual cycle or menses', example: 'Relating to monthly cyclic shedding of the endometrial lining.' },
+            { id: 's15-5-28', category: 'Std 5: Clinical Terms', term: 'myometrium', breakdown: 'my/o + metr/o + -ium', definition: 'pertaining to the muscular uterine tissue', example: 'Thick smooth-muscle middle layer of the uterine wall responsible for labor contractions.' },
+            { id: 's15-5-29', category: 'Std 5: Clinical Terms', term: 'oocyte', breakdown: 'oo- + -cyte', definition: 'a cell in the ovary that may undergo meiotic division to form an ovum', example: 'Developing female germ cell within an ovarian follicle.' },
+            { id: 's15-5-30', category: 'Std 5: Clinical Terms', term: 'oophoritis', breakdown: 'oophor/o + -itis', definition: 'inflammation of an ovary', example: 'Inflammatory condition of one or both ovaries, often seen with salpingitis in PID.' },
+            { id: 's15-5-31', category: 'Std 5: Clinical Terms', term: 'oophoropathy', breakdown: 'oophor/o + -pathy', definition: 'disease of the ovaries', example: 'General diagnostic term for any pathological disorder of the ovaries.' },
+            { id: 's15-5-32', category: 'Std 5: Clinical Terms', term: 'orchidalgia', breakdown: 'orchid/o + -algia', definition: 'pain in the testis', example: 'Acute or chronic testicular pain (also termed orchialgia).' },
+            { id: 's15-5-33', category: 'Std 5: Clinical Terms', term: 'orchiectomy', breakdown: 'orchi/o + -ectomy', definition: 'removal of one or both testicles', example: 'Surgical excision of one or both testes (e.g., for testicular cancer or torsion).' },
+            { id: 's15-5-34', category: 'Std 5: Clinical Terms', term: 'orchiepididymitis', breakdown: 'orchi/o + epididym/o + -itis', definition: 'inflammation of the testis and epididymis', example: 'Combined infection/inflammation affecting both the testis and adjacent epididymis.' },
+            { id: 's15-5-35', category: 'Std 5: Clinical Terms', term: 'orchiopathy', breakdown: 'orchi/o + -pathy', definition: 'disease of the testis', example: 'Any disorder or pathological condition affecting the testis.' },
+            { id: 's15-5-36', category: 'Std 5: Clinical Terms', term: 'orchitis', breakdown: 'orchi/o + -itis', definition: 'inflammation of one or both testes', example: 'Testicular inflammation caused by viral (e.g., mumps) or bacterial infection.' },
+            { id: 's15-5-37', category: 'Std 5: Clinical Terms', term: 'parturition', breakdown: 'partur/o + -ition', definition: 'childbirth', example: 'The physiological process of labor and giving birth to an infant.' },
+            { id: 's15-5-38', category: 'Std 5: Clinical Terms', term: 'perineum', breakdown: 'perine/o + -um', definition: 'the area between the anus and the genitals', example: 'Diamond-shaped pelvic floor region extending from the pubic symphysis to the coccyx.' },
+            { id: 's15-5-39', category: 'Std 5: Clinical Terms', term: 'prostatectomy', breakdown: 'prostat/o + -ectomy', definition: 'removal of the prostate gland', example: 'Surgical excision of all or part of the prostate gland (e.g., TURP or radical prostatectomy).' },
+            { id: 's15-5-40', category: 'Std 5: Clinical Terms', term: 'prostatitis', breakdown: 'prostat/o + -itis', definition: 'inflammation of the prostate gland', example: 'Acute or chronic inflammation of the prostate causing dysuria and pelvic pain.' },
+            { id: 's15-5-41', category: 'Std 5: Clinical Terms', term: 'salpingectomy', breakdown: 'salping/o + -ectomy', definition: 'removal of a fallopian tube', example: 'Surgical removal of one or both uterine (fallopian) tubes, such as for ectopic pregnancy.' },
+            { id: 's15-5-42', category: 'Std 5: Clinical Terms', term: 'salpingitis', breakdown: 'salping/o + -itis', definition: 'inflammation of the fallopian tubes', example: 'Infection and inflammation of the uterine tubes that can lead to scarring or infertility.' },
+            { id: 's15-5-43', category: 'Std 5: Clinical Terms', term: 'seminoma', breakdown: 'semin/o + -oma', definition: 'a tumor of the testis', example: 'Malignant germ-cell neoplasm of the testis.' },
+            { id: 's15-5-44', category: 'Std 5: Clinical Terms', term: 'spermatocyte', breakdown: 'spermat/o + -cyte', definition: 'sperm cell', example: 'Male gametocyte undergoing meiosis in the seminiferous tubules to form spermatozoa.' },
+            { id: 's15-5-45', category: 'Std 5: Clinical Terms', term: 'testicular', breakdown: 'testicul/o + -ar', definition: 'pertaining to the testes', example: 'Relating to the male gonads (e.g., testicular torsion or testicular self-exam).' },
+            { id: 's15-5-46', category: 'Std 5: Clinical Terms', term: 'vaginal', breakdown: 'vagin/o + -al', definition: 'pertaining to the vagina', example: 'Relating to the muscular canal extending from the cervix to the vulva.' },
+            { id: 's15-5-47', category: 'Std 5: Clinical Terms', term: 'vaginoperineoplasty', breakdown: 'vagin/o + perine/o + -plasty', definition: 'repair of the vagina and the perineum', example: 'Reconstructive plastic surgery repairing both the vagina and pelvic floor perineum.' }
+        ];
+
+        // =========================================================================
+        // 2. NAVIGATION & GLOBAL MASTERY STATE (PERSISTED UNDER STRAND 15 KEY)
+        // =========================================================================
+        const STORAGE_KEY_MASTERED = 'medterm_s15_reproductive_mastered';
+        const STORAGE_KEY_BEST_TIME = 'medterm_s15_best_time';
+        let masteredIds = new Set(JSON.parse(localStorage.getItem(STORAGE_KEY_MASTERED) || '[]'));
+
+        function updateMasteryUI() {
+            localStorage.setItem(STORAGE_KEY_MASTERED, JSON.stringify([...masteredIds]));
+            const count = masteredIds.size;
+            const total = strand15Data.length;
+            document.getElementById('header-mastered-count').textContent = count;
+            document.getElementById('header-total-count').textContent = total;
+            const pct = total > 0 ? Math.round((count / total) * 100) : 0;
+            const barEl = document.getElementById('header-mastery-bar');
+            if (barEl) barEl.style.width = `${pct}%`;
+        }
+
+        function syncDynamicCounts() {
+            const total = strand15Data.length;
+            const s1 = strand15Data.filter(i => i.category === 'Std 1: Abbreviations').length;
+            const s2 = strand15Data.filter(i => i.category === 'Std 2: Prefixes').length;
+            const s3 = strand15Data.filter(i => i.category === 'Std 3: Roots/Combining Forms').length;
+            const s4 = strand15Data.filter(i => i.category === 'Std 4: Suffixes').length;
+            const s5 = strand15Data.filter(i => i.category === 'Std 5: Clinical Terms').length;
+
+            document.getElementById('tab-study').innerHTML = `
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                Study Guide (All ${total} Terms)
+            `;
+
+            const filterMap = {
+                'ALL': `All (${total})`,
+                'Std 1: Abbreviations': `Std 1: Abbreviations (${s1})`,
+                'Std 2: Prefixes': `Std 2: Prefixes (${s2})`,
+                'Std 3: Roots/Combining Forms': `Std 3: Roots (${s3})`,
+                'Std 4: Suffixes': `Std 4: Suffixes (${s4})`,
+                'Std 5: Clinical Terms': `Std 5: Clinical Terms (${s5})`
+            };
+            document.querySelectorAll('#study-filters .pill-btn').forEach(btn => {
+                if (filterMap[btn.dataset.filter]) {
+                    btn.textContent = filterMap[btn.dataset.filter];
+                }
+            });
+
+            const fcSel = document.getElementById('fc-category-select');
+            if (fcSel) {
+                fcSel.options[0].text = `All Strand 15 Terms (${total})`;
+                fcSel.options[2].text = `Std 1: Abbreviations (${s1})`;
+                fcSel.options[3].text = `Std 2: Prefixes (${s2})`;
+                fcSel.options[4].text = `Std 3: Roots (${s3})`;
+                fcSel.options[5].text = `Std 4: Suffixes (${s4})`;
+                fcSel.options[6].text = `Std 5: Clinical Terms (${s5})`;
+            }
+
+            const matchSel = document.getElementById('match-filter');
+            if (matchSel) {
+                matchSel.options[0].text = `Mixed Strand 15 (${total})`;
+                matchSel.options[1].text = `Abbreviations (${s1})`;
+                matchSel.options[2].text = `Word Roots (${s3})`;
+                matchSel.options[3].text = `Clinical Terms (${s5})`;
+            }
+        }
+
+        function switchTab(tabName) {
+            document.querySelectorAll('.tab-view').forEach(el => el.classList.add('hidden'));
+            document.getElementById(`view-${tabName}`).classList.remove('hidden');
+
+            document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+            document.getElementById(`tab-${tabName}`).classList.add('active');
+
+            if (tabName === 'matching' && document.getElementById('match-terms-col').children.length === 0) {
+                startNewMatchRound();
+            }
+        }
+
+        // =========================================================================
+        // 3. TAB 1: STUDY GUIDE LOGIC
+        // =========================================================================
+        let currentStudyFilter = 'ALL';
+        let blurDefinitions = false;
+
+        function setStudyFilter(filter) {
+            currentStudyFilter = filter;
+            document.querySelectorAll('.pill-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.filter === filter);
+            });
+            renderStudyGuide();
+        }
+
+        function toggleSelfTestBlur() {
+            blurDefinitions = !blurDefinitions;
+            const btn = document.getElementById('toggle-blur-btn');
+            if (blurDefinitions) {
+                btn.classList.add('active-toggle');
+                btn.querySelector('span').textContent = 'Show All Definitions';
+            } else {
+                btn.classList.remove('active-toggle');
+                btn.querySelector('span').textContent = 'Hide Definitions (Self-Test)';
+            }
+            renderStudyGuide();
+        }
+
+        function renderStudyGuide() {
+            const query = document.getElementById('study-search').value.toLowerCase().trim();
+            const grid = document.getElementById('study-grid');
+
+            const filtered = strand15Data.filter(item => {
+                const matchesCat = currentStudyFilter === 'ALL' || item.category === currentStudyFilter;
+                const matchesQuery =
+                    item.term.toLowerCase().includes(query) ||
+                    item.definition.toLowerCase().includes(query) ||
+                    item.category.toLowerCase().includes(query) ||
+                    (item.breakdown && item.breakdown.toLowerCase().includes(query));
+                return matchesCat && matchesQuery;
+            });
+
+            if (filtered.length === 0) {
+                grid.innerHTML = `
+                    <div class="card-panel" style="grid-column: 1 / -1; text-align: center; padding: 2.5rem;">
+                        <p style="color: var(--slate-500); font-weight: 600;">No Strand 15 items matched "${query}".</p>
+                    </div>`;
+                return;
+            }
+
+            const tagClassMap = {
+                'Std 1: Abbreviations': 'tag-s1',
+                'Std 2: Prefixes': 'tag-s2',
+                'Std 3: Roots/Combining Forms': 'tag-s3',
+                'Std 4: Suffixes': 'tag-s4',
+                'Std 5: Clinical Terms': 'tag-s5'
+            };
+
+            grid.innerHTML = filtered.map(item => {
+                const isMastered = masteredIds.has(item.id);
+                return `
+                <article class="term-card ${isMastered ? 'is-mastered-card' : ''}">
+                    <div>
+                        <div class="term-card-top">
+                            <span class="std-tag ${tagClassMap[item.category]}">${item.category}</span>
+                            <button onclick="toggleStudyMastery('${item.id}')" class="mastery-toggle-pill ${isMastered ? 'is-mastered' : ''}" title="Toggle Mastered status">
+                                ${isMastered ? '✓ Mastered' : 'Mastered'}
+                            </button>
+                        </div>
+                        <h3 class="term-title font-mono">${item.term}</h3>
+                        ${item.breakdown ? `<div class="term-breakdown font-mono">${item.breakdown}</div>` : ''}
+                    </div>
+                    <div onclick="revealSingleCard(this)" class="term-def-box ${blurDefinitions ? 'blurred-mode' : ''}">
+                        <p class="term-def-text ${blurDefinitions ? 'is-blurred' : ''}">${item.definition}</p>
+                        ${blurDefinitions ? '<span class="peek-hint">Click to peek at definition</span>' : ''}
+                    </div>
+                </article>`;
+            }).join('');
+        }
+
+        function revealSingleCard(boxEl) {
+            const p = boxEl.querySelector('.term-def-text');
+            if (p && p.classList.contains('is-blurred')) {
+                p.classList.remove('is-blurred');
+                const hint = boxEl.querySelector('.peek-hint');
+                if (hint) hint.remove();
+            }
+        }
+
+        function toggleStudyMastery(id) {
+            if (masteredIds.has(id)) {
+                masteredIds.delete(id);
+            } else {
+                masteredIds.add(id);
+            }
+            updateMasteryUI();
+            renderStudyGuide();
+            renderFlashcard();
+        }
+
+        // =========================================================================
+        // 4. TAB 2: INTERACTIVE 3D FLASHCARDS LOGIC
+        // =========================================================================
+        let fcDeck = [];
+        let fcIndex = 0;
+        let fcFlipped = false;
+
+        function initFlashcardDeck() {
+            const filter = document.getElementById('fc-category-select').value;
+            if (filter === 'ALL') {
+                fcDeck = [...strand15Data];
+            } else if (filter === 'STILL_LEARNING') {
+                fcDeck = strand15Data.filter(item => !masteredIds.has(item.id));
+                if (fcDeck.length === 0) fcDeck = [...strand15Data];
+            } else {
+                fcDeck = strand15Data.filter(item => item.category === filter);
+            }
+            fcIndex = 0;
+            fcFlipped = false;
+            renderFlashcard();
+        }
+
+        function resetFlashcardDeck() {
+            document.getElementById('fc-category-select').value = 'ALL';
+            initFlashcardDeck();
+        }
+
+        function renderFlashcard() {
+            if (fcDeck.length === 0) return;
+            const card = fcDeck[fcIndex];
+            const inner = document.getElementById('fc-inner');
+
+            inner.classList.toggle('is-flipped', fcFlipped);
+
+            document.getElementById('fc-counter').textContent = `Card ${fcIndex + 1} of ${fcDeck.length}`;
+            const pct = ((fcIndex + 1) / fcDeck.length) * 100;
+            document.getElementById('fc-progress-bar').style.width = `${pct}%`;
+
+            document.getElementById('fc-front-cat').textContent = card.category;
+            document.getElementById('fc-front-text').textContent = card.term;
+            document.getElementById('fc-back-term').textContent = card.term;
+            document.getElementById('fc-back-text').textContent = card.definition;
+
+            const breakdownEl = document.getElementById('fc-back-breakdown');
+            if (card.breakdown) {
+                breakdownEl.textContent = card.breakdown;
+                breakdownEl.classList.remove('hidden');
+            } else {
+                breakdownEl.classList.add('hidden');
+            }
+
+            const exampleEl = document.getElementById('fc-back-example');
+            if (card.example) {
+                exampleEl.textContent = card.example;
+                exampleEl.classList.remove('hidden');
+            } else {
+                exampleEl.classList.add('hidden');
+            }
+
+            const isMastered = masteredIds.has(card.id);
+            const badge = document.getElementById('fc-status-badge');
+            const backTag = document.getElementById('fc-back-mastery-tag');
+            if (isMastered) {
+                badge.textContent = 'Mastered';
+                badge.className = 'status-badge status-mastered';
+                if (backTag) {
+                    backTag.textContent = '✓ Mastered';
+                    backTag.className = 'status-badge status-mastered';
+                }
+            } else {
+                badge.textContent = 'Still Learning';
+                badge.className = 'status-badge status-learning';
+                if (backTag) {
+                    backTag.textContent = 'Still Learning';
+                    backTag.className = 'status-badge status-learning';
+                }
+            }
+        }
+
+        function flipFlashcard() {
+            fcFlipped = !fcFlipped;
+            renderFlashcard();
+        }
+
+        function nextFlashcard() {
+            fcFlipped = false;
+            fcIndex = (fcIndex + 1) % fcDeck.length;
+            renderFlashcard();
+        }
+
+        function prevFlashcard() {
+            fcFlipped = false;
+            fcIndex = (fcIndex - 1 + fcDeck.length) % fcDeck.length;
+            renderFlashcard();
+        }
+
+        function shuffleFlashcards() {
+            for (let i = fcDeck.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [fcDeck[i], fcDeck[j]] = [fcDeck[j], fcDeck[i]];
+            }
+            fcIndex = 0;
+            fcFlipped = false;
+            renderFlashcard();
+        }
+
+        function markFlashcard(isMastered) {
+            const card = fcDeck[fcIndex];
+            if (isMastered) {
+                masteredIds.add(card.id);
+            } else {
+                masteredIds.delete(card.id);
+            }
+            updateMasteryUI();
+            renderStudyGuide();
+            nextFlashcard();
+        }
+
+        function toggleCurrentFlashcardMastery() {
+            const card = fcDeck[fcIndex];
+            if (!card) return;
+            if (masteredIds.has(card.id)) {
+                masteredIds.delete(card.id);
+            } else {
+                masteredIds.add(card.id);
+            }
+            updateMasteryUI();
+            renderStudyGuide();
+            renderFlashcard();
+        }
+
+        function resetMastery() {
+            masteredIds.clear();
+            updateMasteryUI();
+            renderFlashcard();
+            renderStudyGuide();
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (document.getElementById('view-flashcards').classList.contains('hidden')) return;
+            if (e.code === 'Space' || e.code === 'Enter') {
+                if (document.activeElement && document.activeElement.tagName === 'BUTTON') return;
+                e.preventDefault();
+                flipFlashcard();
+            } else if (e.code === 'ArrowRight') {
+                nextFlashcard();
+            } else if (e.code === 'ArrowLeft') {
+                prevFlashcard();
+            } else if (e.key === 'm' || e.key === 'M') {
+                toggleCurrentFlashcardMastery();
+            }
+        });
+
+        // =========================================================================
+        // 5. TAB 3: REPRODUCTIVE WORD-BUILDING LAB (18 EXACT CHALLENGES)
+        // =========================================================================
+        const wordBuilderChallenges = [
+            {
+                definition: 'absence of menstrual flow',
+                hint: 'Requires: Prefix (without, no) + Combining Form (menstruation) + Suffix (flow, discharge)',
+                parts: ['a-', 'men/o', '-rrhea'],
+                distractors: ['dys-', 'gyn/o', 'lact/o', '-tocia'],
+                correctSpelling: 'amenorrhea',
+                spellingOptions: ['amenorrhea', 'amenorhea', 'amenoorrhea'],
+                explanation: 'a- (without, no) + men/o (menstruation) + -rrhea (excessive flow/discharge) = amenorrhea. Drop the combining vowel "o" before "-rrhea" (and double the "r").'
+            },
+            {
+                definition: 'inflammation of the penis',
+                hint: 'Requires: Combining Form (penis) + Suffix (inflammation)',
+                parts: ['balan/o', '-itis'],
+                distractors: ['prostat/o', 'orchi/o', '-plasty', '-algia'],
+                correctSpelling: 'balanitis',
+                spellingOptions: ['balanitis', 'balanoitis', 'balanosis'],
+                explanation: 'balan/o (penis) + -itis (inflammation) = balanitis. Drop the combining vowel "o" because -itis starts with a vowel.'
+            },
+            {
+                definition: 'surgical repair of the penis',
+                hint: 'Requires: Combining Form (penis) + Suffix (surgical repair)',
+                parts: ['balan/o', '-plasty'],
+                distractors: ['colp/o', 'vagin/o', '-itis', '-tomy'],
+                correctSpelling: 'balanoplasty',
+                spellingOptions: ['balanoplasty', 'balanplasty', 'balanopexy'],
+                explanation: 'balan/o (penis) + -plasty (surgical repair) = balanoplasty. Keep the combining vowel "o" because -plasty begins with a consonant.'
+            },
+            {
+                definition: 'repair of the vagina',
+                hint: 'Requires: Combining Form (vagina) + Suffix (surgical suturing/repair)',
+                parts: ['colp/o', '-rrhaphy'],
+                distractors: ['vulv/o', 'hymen/o', '-ectomy', '-scope'],
+                correctSpelling: 'colporrhaphy',
+                spellingOptions: ['colporrhaphy', 'colprrhaphy', 'colporhaphy'],
+                explanation: 'colp/o (vagina) + -rrhaphy (suturing/repair) = colporrhaphy. Keep the combining vowel "o" before the consonant suffix -rrhaphy.'
+            },
+            {
+                definition: 'hidden or undescended testes',
+                hint: 'Requires: Combining Form (hidden) + Combining Form (testes) + Suffix (condition)',
+                parts: ['crypt/o', 'orchid/o', '-ism'],
+                distractors: ['epididym/o', 'test/o', '-itis', '-ectomy'],
+                correctSpelling: 'cryptorchidism',
+                spellingOptions: ['cryptorchidism', 'cryptoorchidism', 'cryptorchidoid'],
+                explanation: 'crypt/o (hidden) + orchid/o (testes) + -ism (condition) = cryptorchidism. Drop "o" before vowel-initial orchid/o and before vowel-initial -ism.'
+            },
+            {
+                definition: 'difficult or prolonged labor and delivery',
+                hint: 'Requires: Prefix (painful, difficult, bad) + Suffix (labor)',
+                parts: ['dys-', '-tocia'],
+                distractors: ['ectop-', 'meso-', '-cyesis', '-partum'],
+                correctSpelling: 'dystocia',
+                spellingOptions: ['dystocia', 'dysotocia', 'dystokia'],
+                explanation: 'dys- (painful, difficult) + -tocia (labor) = dystocia.'
+            },
+            {
+                definition: 'incision into the perineum',
+                hint: 'Requires: Combining Form (vulva) + Suffix (incision, cutting into)',
+                parts: ['episi/o', '-tomy'],
+                distractors: ['perine/o', 'hymen/o', '-ectomy', '-plasty'],
+                correctSpelling: 'episiotomy',
+                spellingOptions: ['episiotomy', 'episitomy', 'episiectomy'],
+                explanation: 'episi/o (vulva) + -tomy (incision) = episiotomy. Keep the combining vowel "o" before the consonant suffix -tomy.'
+            },
+            {
+                definition: 'incision into the hymen',
+                hint: 'Requires: Combining Form (hymen) + Suffix (incision, cutting into)',
+                parts: ['hymen/o', '-tomy'],
+                distractors: ['colp/o', 'vulv/o', '-ectomy', '-gram'],
+                correctSpelling: 'hymenotomy',
+                spellingOptions: ['hymenotomy', 'hymentomy', 'hymenectomy'],
+                explanation: 'hymen/o (hymen) + -tomy (incision) = hymenotomy. Keep the combining vowel "o" because -tomy begins with a consonant.'
+            },
+            {
+                definition: 'removal of the uterus',
+                hint: 'Requires: Combining Form (uterus) + Suffix (surgical removal)',
+                parts: ['hyster/o', '-ectomy'],
+                distractors: ['oophor/o', 'salping/o', '-tomy', '-scope'],
+                correctSpelling: 'hysterectomy',
+                spellingOptions: ['hysterectomy', 'hysteroectomy', 'hysterotomy'],
+                explanation: 'hyster/o (uterus) + -ectomy (removal) = hysterectomy. Drop the combining vowel "o" because -ectomy starts with a vowel.'
+            },
+            {
+                definition: 'instrument to view within the uterus',
+                hint: 'Requires: Combining Form (uterus) + Suffix (instrument to view)',
+                parts: ['hyster/o', '-scope'],
+                distractors: ['colp/o', 'amni/o', '-gram', '-ectomy'],
+                correctSpelling: 'hysteroscope',
+                spellingOptions: ['hysteroscope', 'hysterscope', 'hysterogram'],
+                explanation: 'hyster/o (uterus) + -scope (instrument to view) = hysteroscope. Keep the combining vowel "o" before the consonant suffix -scope.'
+            },
+            {
+                definition: 'picture (x-ray) of the breast',
+                hint: 'Requires: Combining Form (breast) + Suffix (record, picture)',
+                parts: ['mamm/o', '-gram'],
+                distractors: ['lact/o', 'metr/o', '-pexy', '-scope'],
+                correctSpelling: 'mammogram',
+                spellingOptions: ['mammogram', 'mammgram', 'mammography'],
+                explanation: 'mamm/o (breast) + -gram (picture/record) = mammogram. Keep the combining vowel "o" before the consonant suffix -gram.'
+            },
+            {
+                definition: 'surgical fixation of the breast',
+                hint: 'Requires: Combining Form (breast) + Suffix (surgical fixation)',
+                parts: ['mast/o', '-pexy'],
+                distractors: ['mamm/o', 'lact/o', '-gram', '-plasty'],
+                correctSpelling: 'mastopexy',
+                spellingOptions: ['mastopexy', 'mastpexy', 'mastectomy'],
+                explanation: 'mast/o (breast) + -pexy (surgical fixation) = mastopexy. Keep the combining vowel "o" because -pexy starts with a consonant.'
+            },
+            {
+                definition: 'the first occurrence of menstruation',
+                hint: 'Requires: Combining Form (menstruation) + Combining Form/Suffix (beginning or first)',
+                parts: ['men/o', 'arch/e'],
+                distractors: ['gravid/o', 'ovari/o', '-pause', '-rrhea'],
+                correctSpelling: 'menarche',
+                spellingOptions: ['menarche', 'menoarche', 'menopause'],
+                explanation: 'men/o (menstruation) + arch/e (beginning or first) = menarche. Drop the combining vowel "o" before vowel-initial arch/e.'
+            },
+            {
+                definition: 'inflammation of an ovary',
+                hint: 'Requires: Combining Form (ovary) + Suffix (inflammation)',
+                parts: ['oophor/o', '-itis'],
+                distractors: ['salping/o', 'hyster/o', '-pathy', '-ectomy'],
+                correctSpelling: 'oophoritis',
+                spellingOptions: ['oophoritis', 'oophoroitis', 'oophoropathy'],
+                explanation: 'oophor/o (ovary) + -itis (inflammation) = oophoritis. Drop the combining vowel "o" before the vowel suffix -itis.'
+            },
+            {
+                definition: 'removal of one or both testicles',
+                hint: 'Requires: Combining Form (testes) + Suffix (surgical removal)',
+                parts: ['orchi/o', '-ectomy'],
+                distractors: ['prostat/o', 'epididym/o', '-algia', '-pathy'],
+                correctSpelling: 'orchiectomy',
+                spellingOptions: ['orchiectomy', 'orchioectomy', 'orchitis'],
+                explanation: 'orchi/o (testes) + -ectomy (removal) = orchiectomy. Drop the combining vowel "o" before the vowel suffix -ectomy.'
+            },
+            {
+                definition: 'removal of the prostate gland',
+                hint: 'Requires: Combining Form (prostate gland) + Suffix (surgical removal)',
+                parts: ['prostat/o', '-ectomy'],
+                distractors: ['balan/o', 'vesic/o', '-itis', '-tomy'],
+                correctSpelling: 'prostatectomy',
+                spellingOptions: ['prostatectomy', 'prostatoectomy', 'prostatitis'],
+                explanation: 'prostat/o (prostate gland) + -ectomy (removal) = prostatectomy. Drop the combining vowel "o" because -ectomy begins with a vowel.'
+            },
+            {
+                definition: 'inflammation of the fallopian tubes',
+                hint: 'Requires: Combining Form (uterine tube) + Suffix (inflammation)',
+                parts: ['salping/o', '-itis'],
+                distractors: ['oophor/o', 'metr/o', '-ectomy', '-gram'],
+                correctSpelling: 'salpingitis',
+                spellingOptions: ['salpingitis', 'salpingoitis', 'salpingectomy'],
+                explanation: 'salping/o (uterine tube) + -itis (inflammation) = salpingitis. Drop the combining vowel "o" before the vowel suffix -itis.'
+            },
+            {
+                definition: 'repair of the vagina and the perineum',
+                hint: 'Requires: Root 1 (vagina) + Root 2 (perineum) + Suffix (surgical repair)',
+                parts: ['vagin/o', 'perine/o', '-plasty'],
+                distractors: ['colp/o', 'vulv/o', '-rrhaphy', '-tomy'],
+                correctSpelling: 'vaginoperineoplasty',
+                spellingOptions: ['vaginoperineoplasty', 'vaginperineoplasty', 'vaginoperineplasty'],
+                explanation: 'vagin/o (vagina) + perine/o (perineum) + -plasty (surgical repair) = vaginoperineoplasty. Keep "o" between two word roots and keep "o" before the consonant suffix -plasty.'
+            }
+        ];
+
+        let wbIndex = 0;
+        let wbScore = 0;
+        let wbSelectedParts = [];
+        let wbSolvedCurrent = false;
+
+        function loadBuilderChallenge() {
+            const challenge = wordBuilderChallenges[wbIndex];
+            wbSelectedParts = [];
+            wbSolvedCurrent = false;
+
+            document.getElementById('wb-progress').textContent = `${wbIndex + 1} / ${wordBuilderChallenges.length}`;
+            document.getElementById('wb-target-def').textContent = challenge.definition;
+            document.getElementById('wb-target-hint').textContent = challenge.hint;
+            document.getElementById('wb-spelling-step').classList.add('hidden');
+            document.getElementById('wb-feedback').classList.add('hidden');
+            document.getElementById('wb-next-btn').classList.add('hidden');
+            document.getElementById('wb-check-btn').disabled = false;
+
+            renderBuilderTray();
+
+            const bankParts = [...challenge.parts, ...challenge.distractors].sort(() => Math.random() - 0.5);
+            const bankEl = document.getElementById('wb-bank');
+            bankEl.innerHTML = bankParts.map(part => `
+                <button onclick="addPartToTray('${part}')" class="part-tile font-mono">
+                    ${part}
+                </button>
+            `).join('');
+        }
+
+        function renderBuilderTray() {
+            const tray = document.getElementById('wb-tray');
+            if (wbSelectedParts.length === 0) {
+                tray.innerHTML = `<span style="font-size: 0.85rem; color: var(--slate-400); font-style: italic;">Click word parts from the bank below...</span>`;
+                return;
+            }
+            tray.innerHTML = wbSelectedParts.map((part, idx) => `
+                <span class="tray-chip font-mono">
+                    ${part}
+                    <button onclick="removePartFromTray(${idx})" aria-label="Remove part">✕</button>
+                </span>
+                ${idx < wbSelectedParts.length - 1 ? '<span style="color: var(--slate-400); font-weight: 800;">+</span>' : ''}
+            `).join('');
+        }
+
+        function addPartToTray(part) {
+            if (wbSolvedCurrent) return;
+            const challenge = wordBuilderChallenges[wbIndex];
+            if (wbSelectedParts.length >= challenge.parts.length) return;
+
+            wbSelectedParts.push(part);
+            document.getElementById('wb-feedback').classList.add('hidden');
+            renderBuilderTray();
+
+            if (wbSelectedParts.length === challenge.parts.length) {
+                checkBuilderOrder();
+            }
+        }
+
+        function checkBuilderOrder() {
+            if (wbSolvedCurrent) return;
+            const challenge = wordBuilderChallenges[wbIndex];
+            const fb = document.getElementById('wb-feedback');
+
+            if (wbSelectedParts.length !== challenge.parts.length) {
+                fb.className = 'feedback-alert alert-warn';
+                fb.innerHTML = `<strong>⚠ Incomplete Assembly:</strong> Select ${challenge.parts.length} word parts in order before checking (${challenge.parts.length - wbSelectedParts.length} more needed).`;
+                fb.classList.remove('hidden');
+                return;
+            }
+
+            const isOrderCorrect = wbSelectedParts.every((val, i) => val === challenge.parts[i]);
+            if (isOrderCorrect) {
+                fb.className = 'feedback-alert alert-info';
+                fb.innerHTML = `<strong>✓ Correct word-part sequence!</strong> Now complete Step 2 below to apply Strand 1 combining-vowel rules.`;
+                fb.classList.remove('hidden');
+                showSpellingStep(challenge);
+            } else {
+                fb.className = 'feedback-alert alert-error animate-shake';
+                fb.innerHTML = `<strong>✕ Not quite!</strong> Check the anatomical order (Prefix → Root 1 → Root 2 → Suffix) or meanings of those parts, use Undo/Clear, and try again.`;
+                fb.classList.remove('hidden');
+            }
+        }
+
+        function undoBuilderPart() {
+            if (wbSolvedCurrent || wbSelectedParts.length === 0) return;
+            wbSelectedParts.pop();
+            document.getElementById('wb-spelling-step').classList.add('hidden');
+            document.getElementById('wb-feedback').classList.add('hidden');
+            renderBuilderTray();
+        }
+
+        function removePartFromTray(idx) {
+            if (wbSolvedCurrent) return;
+            wbSelectedParts.splice(idx, 1);
+            document.getElementById('wb-spelling-step').classList.add('hidden');
+            document.getElementById('wb-feedback').classList.add('hidden');
+            renderBuilderTray();
+        }
+
+        function clearBuilderTray() {
+            if (wbSolvedCurrent) return;
+            wbSelectedParts = [];
+            document.getElementById('wb-spelling-step').classList.add('hidden');
+            document.getElementById('wb-feedback').classList.add('hidden');
+            renderBuilderTray();
+        }
+
+        function showSpellingStep(challenge) {
+            const stepDiv = document.getElementById('wb-spelling-step');
+            const optionsDiv = document.getElementById('wb-spelling-options');
+            const shuffled = [...challenge.spellingOptions].sort(() => Math.random() - 0.5);
+
+            optionsDiv.innerHTML = shuffled.map(opt => `
+                <button onclick="checkFinalSpelling('${opt}')" class="spelling-btn font-mono">
+                    ${opt}
+                </button>
+            `).join('');
+            stepDiv.classList.remove('hidden');
+        }
+
+        function checkFinalSpelling(chosen) {
+            if (wbSolvedCurrent) return;
+            const challenge = wordBuilderChallenges[wbIndex];
+            const fb = document.getElementById('wb-feedback');
+
+            if (chosen === challenge.correctSpelling) {
+                wbSolvedCurrent = true;
+                wbScore++;
+                document.getElementById('wb-score').textContent = wbScore;
+                document.getElementById('wb-check-btn').disabled = true;
+                fb.className = 'feedback-alert alert-success';
+                fb.innerHTML = `
+                    <div style="font-weight: 800; font-size: 0.95rem; margin-bottom: 0.25rem;">★ Correct! <span class="font-mono" style="text-decoration: underline;">${challenge.correctSpelling}</span></div>
+                    <p>${challenge.explanation}</p>
+                `;
+                document.getElementById('wb-next-btn').classList.remove('hidden');
+            } else {
+                fb.className = 'feedback-alert alert-error animate-shake';
+                fb.innerHTML = `<strong>⚠ Check the combining vowel rule!</strong> Drop the combining vowel "o" before a vowel-initial suffix; keep it before a consonant-initial suffix or between two roots.`;
+            }
+        }
+
+        function nextBuilderChallenge() {
+            wbIndex = (wbIndex + 1) % wordBuilderChallenges.length;
+            loadBuilderChallenge();
+        }
+
+        // =========================================================================
+        // 6. TAB 4: SPEED MATCHING ARENA LOGIC (0.1s TENTHS TIMER + LOCALSTORAGE)
+        // =========================================================================
+        let matchPairs = [];
+        let selectedTermId = null;
+        let selectedDefId = null;
+        let matchedCount = 0;
+        let matchStreak = 0;
+        let matchTimerInterval = null;
+        let matchTenths = 0;
+        let bestMatchTenths = localStorage.getItem(STORAGE_KEY_BEST_TIME) ? parseInt(localStorage.getItem(STORAGE_KEY_BEST_TIME), 10) : null;
+
+        function formatTenths(tenths) {
+            return `${(tenths / 10).toFixed(1)}s`;
+        }
+
+        function updateBestTimeUI() {
+            document.getElementById('match-best').textContent = bestMatchTenths !== null ? formatTenths(bestMatchTenths) : '--';
+        }
+
+        function startNewMatchRound() {
+            clearInterval(matchTimerInterval);
+            matchTenths = 0;
+            matchedCount = 0;
+            selectedTermId = null;
+            selectedDefId = null;
+            document.getElementById('match-timer').textContent = '0.0s';
+            document.getElementById('match-count-display').textContent = '0/6';
+            document.getElementById('match-complete').classList.add('hidden');
+            document.getElementById('match-board').classList.remove('hidden');
+
+            const filter = document.getElementById('match-filter').value;
+            let pool = [];
+            if (filter === 'ALL') {
+                pool = [...strand15Data];
+            } else {
+                pool = strand15Data.filter(i => i.category === filter);
+            }
+
+            pool.sort(() => Math.random() - 0.5);
+            matchPairs = pool.slice(0, 6);
+
+            const termsCol = document.getElementById('match-terms-col');
+            const defsCol = document.getElementById('match-defs-col');
+
+            const shuffledTerms = [...matchPairs].sort(() => Math.random() - 0.5);
+            const shuffledDefs = [...matchPairs].sort(() => Math.random() - 0.5);
+
+            termsCol.innerHTML = shuffledTerms.map(item => `
+                <button id="m-term-${item.id}" onclick="selectMatchTerm('${item.id}')" class="match-tile match-term-btn font-mono" style="font-weight: 700;">
+                    ${item.term}
+                </button>
+            `).join('');
+
+            defsCol.innerHTML = shuffledDefs.map(item => `
+                <button id="m-def-${item.id}" onclick="selectMatchDef('${item.id}')" class="match-tile match-def-btn" style="font-weight: 500;">
+                    ${item.definition}
+                </button>
+            `).join('');
+
+            matchTimerInterval = setInterval(() => {
+                matchTenths++;
+                document.getElementById('match-timer').textContent = formatTenths(matchTenths);
+            }, 100);
+        }
+
+        function selectMatchTerm(id) {
+            const btn = document.getElementById(`m-term-${id}`);
+            if (btn.disabled) return;
+
+            document.querySelectorAll('.match-term-btn').forEach(b => {
+                if (!b.disabled) b.classList.remove('selected');
+            });
+            selectedTermId = id;
+            btn.classList.add('selected');
+            evaluateMatchPair();
+        }
+
+        function selectMatchDef(id) {
+            const btn = document.getElementById(`m-def-${id}`);
+            if (btn.disabled) return;
+
+            document.querySelectorAll('.match-def-btn').forEach(b => {
+                if (!b.disabled) b.classList.remove('selected');
+            });
+            selectedDefId = id;
+            btn.classList.add('selected');
+            evaluateMatchPair();
+        }
+
+        function evaluateMatchPair() {
+            if (!selectedTermId || !selectedDefId) return;
+
+            const termBtn = document.getElementById(`m-term-${selectedTermId}`);
+            const defBtn = document.getElementById(`m-def-${selectedDefId}`);
+
+            if (selectedTermId === selectedDefId) {
+                termBtn.disabled = true;
+                defBtn.disabled = true;
+                termBtn.classList.remove('selected');
+                defBtn.classList.remove('selected');
+                termBtn.classList.add('matched');
+                defBtn.classList.add('matched');
+
+                matchedCount++;
+                matchStreak++;
+                document.getElementById('match-count-display').textContent = `${matchedCount}/6`;
+                document.getElementById('match-streak').textContent = matchStreak;
+
+                if (matchedCount === matchPairs.length) {
+                    clearInterval(matchTimerInterval);
+                    if (bestMatchTenths === null || matchTenths < bestMatchTenths) {
+                        bestMatchTenths = matchTenths;
+                        localStorage.setItem(STORAGE_KEY_BEST_TIME, String(bestMatchTenths));
+                        updateBestTimeUI();
+                    }
+                    document.getElementById('match-final-time').textContent = formatTenths(matchTenths);
+                    setTimeout(() => {
+                        document.getElementById('match-board').classList.add('hidden');
+                        document.getElementById('match-complete').classList.remove('hidden');
+                    }, 350);
+                }
+            } else {
+                matchStreak = 0;
+                document.getElementById('match-streak').textContent = matchStreak;
+                termBtn.classList.add('wrong');
+                defBtn.classList.add('wrong');
+                setTimeout(() => {
+                    termBtn.classList.remove('wrong', 'selected');
+                    defBtn.classList.remove('wrong', 'selected');
+                }, 420);
+            }
+
+            selectedTermId = null;
+            selectedDefId = null;
+        }
+
+        // =========================================================================
+        // 7. TAB 5: PRACTICE EXAM (20 QUESTIONS WITH SHUFFLE & INSTANT RATIONALES)
+        // =========================================================================
+        const baseQuizQuestions = [
+            {
+                q: 'An OB/GYN triage nurse documents a patient’s "LMP", notes her desire for a "VBAC" on the "L & D" unit, and records a "NB" delivery. What do these four Standard 1 abbreviations stand for?',
+                options: [
+                    'Last menstrual period; vaginal birth after cesarean section; labor and delivery; and newborn',
+                    'Late maternal pregnancy; viable birth after complications; lactation and delivery; and neonatal birth',
+                    'Lower menstrual pain; vaginal bleeding after childbirth; labor and dilation; and normal birth',
+                    'Last maternal period; vulvar birth after cerclage; delivery and labor; and nursing baby'
+                ],
+                answer: 0,
+                rationale: 'Standard 1 defines LMP = last menstrual period, VBAC = vaginal birth after cesarean section, L & D = labor and delivery, and NB = newborn.'
+            },
+            {
+                q: 'A urologist performs a "DRE" to palpate the prostate gland, while a gynecologist screens for "HPV" to prevent cervical dysplasia. What do "DRE" and "HPV" stand for?',
+                options: [
+                    'Digital rectal examination and Human papilloma virus',
+                    'Diagnostic renal endoscopy and Human pelvic virus',
+                    'Direct reproductive exam and Herpes papilloma variant',
+                    'Digital reproductive evaluation and Human placental virus'
+                ],
+                answer: 0,
+                rationale: 'Standard 1 defines DRE = digital rectal examination and HPV = Human papilloma virus.'
+            },
+            {
+                q: 'Distinguish between the remaining Standard 1 reproductive abbreviations: "GYN/gyn", "OB/ob", "PMS", "STD", and "STI".',
+                options: [
+                    'GYN = gynecology; OB = obstetrics; PMS = pre-menstrual syndrome; STD = sexually transmitted disease; STI = sexually transmitted infection',
+                    'GYN = genetics; OB = ovulation biology; PMS = post-menopausal state; STD = systemic tract disorder; STI = surgical tube incision',
+                    'GYN = gynecologist; OB = obstetrician; PMS = pelvic muscle spasm; STD = seminal tract disease; STI = sterile tissue infection',
+                    'GYN = genital; OB = ovary; PMS = primary menstrual flow; STD = secondary tubal defect; STI = sub-terine inflammation'
+                ],
+                answer: 0,
+                rationale: 'Standard 1 defines GYN/gyn = gynecology, OB/ob = obstetrics, PMS = pre-menstrual syndrome, STD = sexually transmitted disease, and STI = sexually transmitted infection.'
+            },
+            {
+                q: 'Three different Standard 3 combining forms all mean "uterus": "hyster/o", "metr/o", and "uter/o". Which clinical terms from Standard 5 match those roots?',
+                options: [
+                    'hysterectomy (removal of the uterus) and myometrium (pertaining to the muscular uterine tissue)',
+                    'hymenotomy (incision into the hymen) and mammogram (x-ray of the breast)',
+                    'oophoritis (inflammation of an ovary) and salpingitis (inflammation of the fallopian tubes)',
+                    'colporrhaphy (repair of the vagina) and episiotomy (incision into the perineum)'
+                ],
+                answer: 0,
+                rationale: 'Standard 3 lists hyster/o, metr/o, and uter/o as "uterus", seen in Standard 5 terms hysterectomy, hysterogram, hysteroscope, and myometrium.'
+            },
+            {
+                q: 'Compare the two Standard 3 combining forms for the female sex glands: "oophor/o" and "ovari/o". How are they defined in Strand 15?',
+                options: [
+                    'oophor/o = ovary; ovari/o = ovary; female sex gland',
+                    'oophor/o = uterine tube; ovari/o = vagina',
+                    'oophor/o = inner fetal membrane; ovari/o = outer fetal membrane',
+                    'oophor/o = vulva; ovari/o = hymen'
+                ],
+                answer: 0,
+                rationale: 'Standard 3 defines oophor/o = ovary and ovari/o = ovary; female sex gland.'
+            },
+            {
+                q: 'Four Standard 3 combining forms refer to the male gonads: "orchi/o", "orchid/o", "test/o", and "testicul/o". Which Standard 5 term means "hidden or undescended testes"?',
+                options: [
+                    'Cryptorchidism',
+                    'Orchiepididymitis',
+                    'Orchidalgia',
+                    'Seminoma'
+                ],
+                answer: 0,
+                rationale: 'crypt/o (hidden) + orchid/o (testes) + -ism = cryptorchidism (hidden or undescended testes).'
+            },
+            {
+                q: 'Compare the two Standard 3 combining forms for the vagina: "colp/o" and "vagin/o". Which Standard 5 surgical procedure is defined as "repair of the vagina"?',
+                options: [
+                    'Colporrhaphy',
+                    'Episiotomy',
+                    'Hymenotomy',
+                    'Balanoplasty'
+                ],
+                answer: 0,
+                rationale: 'colp/o (vagina) + -rrhaphy (suturing/repair) = colporrhaphy (repair of the vagina).'
+            },
+            {
+                q: 'Compare the two Standard 3 combining forms for the breast: "mamm/o" and "mast/o". Which pair of Standard 5 definitions is exact?',
+                options: [
+                    'mammogram = picture (x-ray) of the breast; mastopexy = surgical fixation of the breast',
+                    'mammogram = surgical fixation of the breast; mastopexy = milk producing',
+                    'mammogram = removal of the breast; mastopexy = picture (x-ray) of the breast',
+                    'mammogram = inflammation of the breast; mastopexy = incision into the breast'
+                ],
+                answer: 0,
+                rationale: 'Standard 5 defines mammogram = picture (x-ray) of the breast, and mastopexy = surgical fixation of the breast.'
+            },
+            {
+                q: 'Distinguish between the two fetal membrane combining forms in Standard 3: "amni/o" and "chori/o".',
+                options: [
+                    'amni/o = amnion; inner fetal membrane; chori/o = chorion; outer fetal membrane',
+                    'amni/o = outer fetal membrane; chori/o = inner fetal membrane',
+                    'amni/o = umbilical cord; chori/o = placenta',
+                    'amni/o = pelvic floor; chori/o = prostate gland'
+                ],
+                answer: 0,
+                rationale: 'Standard 3 defines amni/o = amnion; inner fetal membrane, and chori/o = chorion; outer fetal membrane.'
+            },
+            {
+                q: 'Compare the three Standard 5 menstruation terms: "menarche", "menopause", and "amenorrhea". Which sequence matches their exact definitions?',
+                options: [
+                    'menarche = the first occurrence of menstruation; menopause = cessation or end of the menstrual cycle; amenorrhea = absence of menstrual flow',
+                    'menarche = cessation of the menstrual cycle; menopause = absence of menstrual flow; amenorrhea = first occurrence of menstruation',
+                    'menarche = painful menstruation; menopause = excessive menstrual flow; amenorrhea = absence of ovulation',
+                    'menarche = pertaining to menses; menopause = difficult labor; amenorrhea = milk producing'
+                ],
+                answer: 0,
+                rationale: 'Standard 5 defines menarche = the first occurrence of menstruation, menopause = cessation or end of the menstrual cycle, and amenorrhea = absence of menstrual flow.'
+            },
+            {
+                q: 'A patient undergoes surgery to remove a ruptured fallopian tube caused by an ectopic pregnancy (prefix "ectop-" = out of place). Which Standard 5 term describes "removal of a fallopian tube"?',
+                options: [
+                    'Salpingectomy',
+                    'Salpingitis',
+                    'Hysterectomy',
+                    'Oophoropathy'
+                ],
+                answer: 0,
+                rationale: 'salping/o (uterine tube) + -ectomy (removal) = salpingectomy (removal of a fallopian tube).'
+            },
+            {
+                q: 'Distinguish between "hysterogram" and "hysteroscope" in Standard 5.',
+                options: [
+                    'hysterogram = picture (or x-ray) of the uterus; hysteroscope = instrument to view within the uterus',
+                    'hysterogram = instrument to view within the uterus; hysteroscope = removal of the uterus',
+                    'hysterogram = incision into the uterus; hysteroscope = picture (x-ray) of the breast',
+                    'hysterogram = muscular uterine tissue; hysteroscope = repair of the vagina'
+                ],
+                answer: 0,
+                rationale: 'Standard 5 defines hysterogram = picture (or x-ray) of the uterus, and hysteroscope = instrument to view within the uterus.'
+            },
+            {
+                q: 'During the second stage of labor, an obstetrician performs an "episiotomy" to prevent tearing of the "perineum", and later performs a "vaginoperineoplasty". What are the exact Standard 5 definitions of these three terms?',
+                options: [
+                    'episiotomy = incision into the perineum; perineum = the area between the anus and the genitals; vaginoperineoplasty = repair of the vagina and the perineum',
+                    'episiotomy = incision into the hymen; perineum = inner fetal membrane; vaginoperineoplasty = removal of the vagina and uterus',
+                    'episiotomy = difficult labor; perineum = prostate gland; vaginoperineoplasty = surgical fixation of the breast',
+                    'episiotomy = removal of the vulva; perineum = outer fetal membrane; vaginoperineoplasty = picture of the uterus'
+                ],
+                answer: 0,
+                rationale: 'Standard 5 defines episiotomy = incision into the perineum, perineum = the area between the anus and the genitals, and vaginoperineoplasty = repair of the vagina and the perineum.'
+            },
+            {
+                q: 'What are the exact Standard 4 definitions of the five suffixes "-cyesis", "-natal", "-partum", "-phylaxis", and "-tocia"?',
+                options: [
+                    '-cyesis = pregnancy; -natal = birth; -partum = childbirth, labor; -phylaxis = protection; -tocia = labor',
+                    '-cyesis = labor; -natal = pregnancy; -partum = protection; -phylaxis = birth; -tocia = menstruation',
+                    '-cyesis = milk; -natal = ovary; -partum = testis; -phylaxis = vagina; -tocia = uterus',
+                    '-cyesis = inflammation; -natal = incision; -partum = removal; -phylaxis = repair; -tocia = pain'
+                ],
+                answer: 0,
+                rationale: 'Standard 4 defines -cyesis = pregnancy, -natal = birth, -partum = childbirth, labor, -phylaxis = protection, and -tocia = labor.'
+            },
+            {
+                q: 'Compare the four male-root clinical terms in Standard 5: "androgen", "andrology", "android", and "ananthropy".',
+                options: [
+                    'androgen = male producing; andrology = study of males (usually pertaining to diseases); android = resembling man; ananthropy = having the characteristics of a man',
+                    'androgen = study of males; andrology = male producing; android = tumor of the testis; ananthropy = pain in the testis',
+                    'androgen = removal of the prostate; andrology = inflammation of the penis; android = sperm cell; ananthropy = to cut around',
+                    'androgen = female producing; andrology = study of female disorders; android = resembling woman; ananthropy = absence of ovulation'
+                ],
+                answer: 0,
+                rationale: 'Standard 5 defines androgen = male producing, andrology = study of males (usually pertaining to diseases), android = resembling man, and ananthropy = having the characteristics of a man.'
+            },
+            {
+                q: 'Distinguish between the testicular pathology and surgical terms in Standard 5: "orchidalgia", "orchiectomy", "orchiepididymitis", "orchiopathy", "orchitis", and "seminoma".',
+                options: [
+                    'orchidalgia = pain in the testis; orchiectomy = removal of one or both testicles; orchiepididymitis = inflammation of the testis and epididymis; orchiopathy = disease of the testis; orchitis = inflammation of one or both testes; seminoma = a tumor of the testis',
+                    'orchidalgia = tumor of the testis; orchiectomy = pain in the testis; orchiepididymitis = removal of the prostate; orchiopathy = inflammation of the penis; orchitis = surgical repair of the penis; seminoma = sperm cell',
+                    'orchidalgia = hidden testes; orchiectomy = incision into the hymen; orchiepididymitis = inflammation of an ovary; orchiopathy = disease of the ovaries; orchitis = inflammation of the fallopian tubes; seminoma = childbirth',
+                    'orchidalgia = inflammation of the prostate; orchiectomy = removal of the prostate; orchiepididymitis = pertaining to the testes; orchiopathy = male producing; orchitis = to cut around; seminoma = milk producing'
+                ],
+                answer: 0,
+                rationale: 'All six definitions match Standard 5 verbatim: orchidalgia (pain in the testis), orchiectomy (removal of one or both testicles), orchiepididymitis (inflammation of the testis and epididymis), orchiopathy (disease of the testis), orchitis (inflammation of one or both testes), and seminoma (a tumor of the testis).'
+            },
+            {
+                q: 'Compare "balanitis", "balanoplasty", and "circumcise" from Standard 5.',
+                options: [
+                    'balanitis = inflammation of the penis; balanoplasty = surgical repair of the penis; circumcise = to cut around',
+                    'balanitis = surgical repair of the penis; balanoplasty = inflammation of the prostate; circumcise = removal of one or both testicles',
+                    'balanitis = pain in the testis; balanoplasty = repair of the vagina; circumcise = incision into the perineum',
+                    'balanitis = inflammation of the urethra; balanoplasty = tumor of the testis; circumcise = incision into the hymen'
+                ],
+                answer: 0,
+                rationale: 'Standard 5 defines balanitis = inflammation of the penis, balanoplasty = surgical repair of the penis, and circumcise = to cut around.'
+            },
+            {
+                q: 'Compare "prostatitis" and "prostatectomy" from Standard 5.',
+                options: [
+                    'prostatitis = inflammation of the prostate gland; prostatectomy = removal of the prostate gland',
+                    'prostatitis = removal of the prostate gland; prostatectomy = incision into the prostate gland',
+                    'prostatitis = tumor of the testis; prostatectomy = removal of one or both testicles',
+                    'prostatitis = inflammation of the bladder; prostatectomy = repair of the vagina'
+                ],
+                answer: 0,
+                rationale: 'Standard 5 defines prostatitis = inflammation of the prostate gland, and prostatectomy = removal of the prostate gland.'
+            },
+            {
+                q: 'Compare the two reproductive gametes/cells defined in Standard 5: "oocyte" and "spermatocyte".',
+                options: [
+                    'oocyte = a cell in the ovary that may undergo meiotic division to form an ovum; spermatocyte = sperm cell',
+                    'oocyte = sperm cell; spermatocyte = number of pregnancies a woman has had',
+                    'oocyte = absence of ovulation; spermatocyte = tumor of the testis',
+                    'oocyte = inner fetal membrane; spermatocyte = outer fetal membrane'
+                ],
+                answer: 0,
+                rationale: 'Standard 5 defines oocyte = a cell in the ovary that may undergo meiotic division to form an ovum, and spermatocyte = sperm cell.'
+            },
+            {
+                q: 'Distinguish between the obstetric terms "gravida", "parturition", "dystocia", and "lactation" in Standard 5.',
+                options: [
+                    'gravida = number of pregnancies a woman has had; parturition = childbirth; dystocia = difficult or prolonged labor and delivery; lactation = milk producing',
+                    'gravida = childbirth; parturition = number of pregnancies; dystocia = absence of ovulation; lactation = cessation of the menstrual cycle',
+                    'gravida = false pregnancy; parturition = first menstruation; dystocia = pain in the testis; lactation = pertaining to the vagina',
+                    'gravida = specialist of female disorders; parturition = study of the female; dystocia = inflammation of an ovary; lactation = x-ray of the breast'
+                ],
+                answer: 0,
+                rationale: 'Standard 5 defines gravida = number of pregnancies a woman has had, parturition = childbirth, dystocia = difficult or prolonged labor and delivery, and lactation = milk producing.'
+            }
+        ];
+
+        let activeQuizQuestions = [];
+        let userQuizAnswers = {};
+
+        function buildQuizSession(shouldShuffle) {
+            const cloned = baseQuizQuestions.map(q => {
+                const optionObjs = q.options.map((text, idx) => ({
+                    text,
+                    isCorrect: idx === q.answer
+                }));
+                if (shouldShuffle) {
+                    optionObjs.sort(() => Math.random() - 0.5);
+                }
+                return {
+                    q: q.q,
+                    options: optionObjs.map(o => o.text),
+                    answer: optionObjs.findIndex(o => o.isCorrect),
+                    rationale: q.rationale
+                };
+            });
+            if (shouldShuffle) {
+                cloned.sort(() => Math.random() - 0.5);
+            }
+            activeQuizQuestions = cloned;
+            userQuizAnswers = {};
+        }
+
+        function updateQuizLiveScore() {
+            const total = activeQuizQuestions.length;
+            const answeredIndices = Object.keys(userQuizAnswers).map(Number);
+            const answeredCount = answeredIndices.length;
+            let correctCount = 0;
+
+            answeredIndices.forEach(idx => {
+                if (userQuizAnswers[idx] === activeQuizQuestions[idx].answer) {
+                    correctCount++;
+                }
+            });
+
+            const pct = total > 0 ? Math.round((correctCount / total) * 100) : 0;
+            document.getElementById('quiz-live-score').textContent = `${correctCount} / ${total} Correct (${pct}%)`;
+            document.getElementById('quiz-answered-status').textContent = `${answeredCount} of ${total} questions answered`;
+        }
+
+        function renderQuiz() {
+            const container = document.getElementById('quiz-questions-container');
+            container.innerHTML = activeQuizQuestions.map((item, qIdx) => {
+                const hasAnswered = Object.prototype.hasOwnProperty.call(userQuizAnswers, qIdx);
+                const selectedOpt = userQuizAnswers[qIdx];
+
+                return `
+                <div class="quiz-item" id="quiz-q-block-${qIdx}">
+                    <div class="quiz-q-header">
+                        <span class="q-num-badge">${qIdx + 1}</span>
+                        <div style="flex: 1;">
+                            <p style="font-weight: 700; color: var(--navy-900); font-size: 0.96rem;">${item.q}</p>
+                            <div class="quiz-options">
+                                ${item.options.map((opt, optIdx) => {
+                                    const isSelected = selectedOpt === optIdx;
+                                    let btnClass = 'quiz-opt-btn';
+                                    let letterContent = String.fromCharCode(65 + optIdx);
+
+                                    if (hasAnswered) {
+                                        if (optIdx === item.answer) {
+                                            btnClass += ' opt-correct';
+                                            letterContent = '✓';
+                                        } else if (isSelected && optIdx !== item.answer) {
+                                            btnClass += ' opt-wrong';
+                                            letterContent = '✕';
+                                        } else {
+                                            btnClass += ' opt-dim';
+                                        }
+                                    }
+
+                                    return `
+                                    <button onclick="selectQuizOption(${qIdx}, ${optIdx})" ${hasAnswered ? 'disabled' : ''} class="${btnClass}">
+                                        <span class="opt-letter">${letterContent}</span>
+                                        <span>${opt}</span>
+                                    </button>`;
+                                }).join('')}
+                            </div>
+                            ${hasAnswered ? `
+                                <div class="rationale-box">
+                                    <strong style="color: ${selectedOpt === item.answer ? 'var(--emerald-700)' : 'var(--crimson-700)'};">
+                                        ${selectedOpt === item.answer ? '✓ Correct!' : '✕ Incorrect.'}
+                                    </strong>
+                                    <span style="margin-left: 0.25rem;">${item.rationale}</span>
+                                </div>
+                            ` : ''}
+                        </div>
+                    </div>
+                </div>`;
+            }).join('');
+
+            updateQuizLiveScore();
+        }
+
+        function selectQuizOption(qIdx, optIdx) {
+            if (Object.prototype.hasOwnProperty.call(userQuizAnswers, qIdx)) return;
+            userQuizAnswers[qIdx] = optIdx;
+            renderQuiz();
+
+            if (Object.keys(userQuizAnswers).length === activeQuizQuestions.length) {
+                gradeQuiz();
+            }
+        }
+
+        function gradeQuiz() {
+            const answeredCount = Object.keys(userQuizAnswers).length;
+            const banner = document.getElementById('quiz-results-banner');
+
+            if (answeredCount < activeQuizQuestions.length) {
+                banner.className = 'feedback-alert alert-warn';
+                banner.innerHTML = `<strong>⚠ Incomplete Exam:</strong> Please answer all ${activeQuizQuestions.length} questions to see your final certification readiness summary (${activeQuizQuestions.length - answeredCount} remaining).`;
+                banner.classList.remove('hidden');
+                banner.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                return;
+            }
+
+            let correctCount = 0;
+            activeQuizQuestions.forEach((q, idx) => {
+                if (userQuizAnswers[idx] === q.answer) correctCount++;
+            });
+
+            const pct = Math.round((correctCount / activeQuizQuestions.length) * 100);
+            const passed = pct >= 74;
+
+            banner.className = passed ? 'feedback-alert alert-success' : 'feedback-alert alert-warn';
+            banner.style.borderWidth = '2px';
+
+            banner.innerHTML = `
+                <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem;">
+                    <div>
+                        <span class="cte-badge" style="background: ${passed ? 'var(--emerald-600)' : 'var(--rose-700)'};">
+                            ${passed ? 'Passing Score Achieved (≥74% Cut Score)' : 'Below State Cut Score (74%)'}
+                        </span>
+                        <h3 style="font-size: 1.4rem; font-weight: 800; margin-top: 0.45rem;">Final Score: ${correctCount} / ${activeQuizQuestions.length} (${pct}%)</h3>
+                        <p style="font-size: 0.875rem; margin-top: 0.25rem;">${passed ? 'Great job! You exceeded the 74% Utah CTE Skill Certification cut score for Strand 15: The Reproductive System.' : 'Review the rationales below and revisit the Flashcards & Word-Building Lab to boost your score above 74%.'}</p>
+                    </div>
+                    <button onclick="retakeQuizShuffled()" class="btn btn-navy">Retake Exam (Shuffled)</button>
+                </div>
+            `;
+            banner.classList.remove('hidden');
+            banner.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+
+        function retakeQuizShuffled() {
+            buildQuizSession(true);
+            document.getElementById('quiz-results-banner').classList.add('hidden');
+            renderQuiz();
+        }
+
+        // =========================================================================
+        // 8. INITIALIZE APPLICATION ON LOAD
+        // =========================================================================
+        window.onload = function () {
+            syncDynamicCounts();
+            updateMasteryUI();
+            updateBestTimeUI();
+            renderStudyGuide();
+            initFlashcardDeck();
+            loadBuilderChallenge();
+            buildQuizSession(false);
+            renderQuiz();
+        };
+    </script>
+</body>
+</html>
